@@ -1,0 +1,53 @@
+# KiCad Auto-saved files
+*.sch-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+*.kicad_sch-bak
+*.bak
+*_autosave*
+*.kicad_prl
+
+# KiCad Rescue Library (KiCad 5 and older)
+*-rescue.lib
+*-rescue.dcm
+
+# KiCad Lock files
+*.kicad_pcb-lock
+*.sch-lock
+*.lck
+
+# Manufacturing Outputs
+gerbers/
+plot_outputs/
+bom/
+
+# KiCad internal history (found in V9/V10+ [Forum](https://forum.kicad.info/t/git-inside-history/69069))
+.history/
+
+# KiCad Auto-save and Backup folders
+*auto_saved_files#
+*-backups/
+
+# KiCad Footprint Cache
+fp-info-cache
+
+# General KiCad Backup Extensions
+*.kicad_pcb-bak
+*.kicad_prl-bak
+*.kicad_sch-bak
+
+#Logs
+ERC_logs
+
+# Ignore Fusion cache/backup files
+*.f3z
+*.bak
+*.tmp
+*.lck
+
+# Ignore rendering output
+CAD_Rendered/Render/
+CAD_Rendered/Cache/
+
+# Ignore autosaves
+**/Recovery/
