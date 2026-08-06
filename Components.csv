@@ -1,18 +1,18 @@
-Category,Component,Typical Size (mm)
-Flight Controller,Pixhawk 6X + Jetson Baseboard,126 x 80 x 39-45
-Power,Battery (4S-6S LiPo),160 x 50 x 50
-Power,Power Distribution Board (PDB),60 x 60 x 8
-Power,Power Module (PM02D),65 x 40 x 18
-Motor Control,ESC x4,45 x 18 x 7 each
-Propulsion,Brushless Motors (~2806.5),35 x 35 x 30
-Propulsion,10 inch Propellers,254 mm diameter
-Navigation,GPS + Compass,50 x 50 x 16
-Communication,RC Receiver,20 x 13 x 5
-Communication,Telemetry Radio,58 x 36 x 12
-Communication,Video Transmitter (optional),36 x 36 x 8
-Vision,Depth Camera (Intel RealSense D435i),90 x 25 x 25
-Structure,Carbon Fiber Frame,Approx. 430-440 mm wheelbase
-Structure,Landing Gear,Varies
-Power,XT60 Connector,20 x 15
-Safety,Buzzer,25 x 15 x 10
-Fasteners,M3 Screws and Standoffs,Various
+Category,Model,Manufacturer Dimensions (mm),Manufacturer / Buy Link
+Flight Controller,Holybro Pixhawk Jetson Baseboard + Pixhawk 6X (with Jetson Orin NX),126 x 80 x 38.6,https://docs.holybro.com/autopilot/pixhawk-baseboards/pixhawk-jetson-baseboard/dimension-and-weight
+Power,Tattu 6S 5000mAh LiPo (XT60),158 x 48 x 52,https://genstattu.com/
+Power,Holybro PM02D HV Power Module,25 x 25 x 10,https://docs.holybro.com/power-module-and-pdb/power-module-comparison
+Power,Holybro Power Distribution Board (PDB) 60A,50 x 50 x 8,https://shop.thebioniceye.co.uk/products/holybro-60a?srsltid=AfmBOooZO4nanTuSxcHnEsDVXxuyDpoT9Va7VZMrv0b9aLmG2NGfQZx7&variant=48882750226625
+Motor Control,Hobbywing XRotor 60A Pro,48 x 30 x 15.5,https://store.mad-motor.com/products/xrotor-pro-60a-4-6s-esc-for-professional-drone-quadcopter-hexacopter
+Propulsion,T-Motor MN2806.5 650KV,35 x 35 x 30,https://store.tmotor.com/
+Propulsion,HQProp DP 10x5 Propeller,254 mm diameter,https://www.hqprop.com/
+Navigation,Holybro Micro M10 GPS (IST8310 Compass),25 x 25 x 4,https://holybro.com/products/micro-m10-gps?variant=42981482922173
+Communication,RadioMaster RP3 ELRS Receiver,22 x 13 x 4,https://radiomasterrc.com/products/rp3-expresslrs-2-4ghz-nano-receiver
+Communication,Quectel RM520N-GL 5G Module (M.2),52 x 30 x 2.3,https://www.quectel.com/product/5g-rm520n-series/
+Vision,Intel RealSense D435i,90 x 25 x 25,https://www.intelrealsense.com/depth-camera-d435i/
+Vision,ST VL53L1X Lidar (x3),25 x 10.7 x 3.2,https://holybro.com/products/st-vl53l1x-lidar?srsltid=AfmBOor2lauHOU-WvNsY8-1xr2Vatd6cC6PU2lAiTXOEU17J8HfGZMaj
+Structure,Custom Carbon Fiber Frame,430–450 mm wheelbase,N/A (custom)
+Structure,Custom Landing Gear,Custom,N/A (custom)
+Power,Amass XT60 Connector,20 x 15 x 10,https://www.amass.com/
+Safety,VIFLY Finder 2 Buzzer,94 x 63 x 51,https://viflydrone.com/products/vifly-finder-v2-fpv-racing-drone-buzzer
+Fasteners,M3 Socket Head Screws + Aluminum Standoffs,Various,https://www.mcmaster.com/metric-fasteners/
