@@ -101,26 +101,39 @@ Overall, Design 2 feels much closer to a realistic research UAV than my original
 TODO : Wiring 
 
 -----------
-day 2
+## Day 2
 
-I researched switching the drone's communication system to 4G/5G, designed the overall communication architecture, investigated remote control and video streaming options, and created a complete BOM with manufacturer dimensions, model names, and purchase links for all major components.
-cRETED ELEMENTS FOR KICAD FOR +- CONNECTIONS TO SEE. 
 
-6S_LiPo![alt text](<Images/Screenshot 2026-08-06 175430.png>)
-Intel_RealSense_D435i
-Micro_M10_GPS![alt text](<Images/Screenshot 2026-08-06 174946.png>)
+Drone General Design : Part 3 https://lapse.hackclub.com/timelapse/EFwJGuFalmob
 
-MN2806_EVO_KV650![alt text](<Images/Screenshot 2026-08-06 174951.png>)
+Drone General Design : Part 4 : KiCAD Symbols https://lapse.hackclub.com/timelapse/CfTy0n8EebXS
 
-Pixhawk_Jetson![alt text](<Images/Screenshot 2026-08-06 174957.png>)
+Drone General Design : Part 5 : Routing and Components https://lapse.hackclub.com/timelapse/v2zys5-Etka2
 
-PM02D![alt text](<Images/Screenshot 2026-08-06 175024.png>)
 
-Power_Distribution_Board![alt text](<Images/Screenshot 2026-08-06 175030.png>)
+Today I spent most of the time figuring out the electronics and communication architecture. I started by researching whether it would be better to use telemetry radios or switch to a 4G/5G solution. After looking into different options, I decided to move towards 4G/5G communication.
 
-Quectel_RM520N-GL_5G![alt text](<Images/Screenshot 2026-08-06 175036.png>)
+Afterwards, I created the initial BOM with all of the major components I plan to use. While doing wiring and other setup I ended up replacing and updating several components as I found options that fit the project better.
 
-RP3_V2_ExpressLRS_2.4ghz_Nano![alt text](<Images/Screenshot 2026-08-06 175042.png>)
-ST_VL53L1X_Lidar![alt text](<Images/Screenshot 2026-08-06 175048.png>)
-VIFLY_Finder_V2![alt text](<Images/Screenshot 2026-08-06 175055.png>)
-XROTOR_Pro_60A![alt text](<Images/Screenshot 2026-08-06 175100.png>)
+The next big task was preparing the project for KiCad. Instead of creating detailed symbols exposing every individual pin, I made simplified symbols that only expose the high-level connectors. Since my goal at this stage is to understand the overall architecture and wiring rather than design custom electronics, this approach keeps the schematic much cleaner and easier to read.
+
+![All new elements](<Images/Screenshot 2026-08-06 212505.png>)
+
+I also spent quite a bit of time figuring the Pixhawk Jetson Baseboard's connectors and ports and how everything is actually connected. 
+
+Reference:
+[https://docs.px4.io/main/assets/power1_one_battery_3s_4s.BwKdxwes.jpg](https://docs.px4.io/main/assets/power1_one_battery_3s_4s.BwKdxwes.jpg)
+
+After that I updated the drone layout once again, resulting in what is currently my third design iteration. The overall placement of the components now feels much more realistic and is based on the actual hardware dimensions rather than rough estimates.
+
+### Design Version 3
+
+![Design Version 3](<Images/Screenshot 2026-08-07 012809.png>)
+
+Finally, I created the first version of the complete system schematic in KiCad. It is intentionally kept at a high level, showing how the main subsystems connect together without going into individual signals or PCB-level details. 
+
+### Schematics V1
+
+![Schematics V1](<Images/Screenshot 2026-08-07 012645.png>)
+
+There is still some uncertainty around some connector choices and communication hardware, so I expect that the schematic moght change over the next few days. Overall, I am satisfied with the results. One might argue it was unessesaary, but it is like trying to find buried treasures by memory or by map - both options have rights to exist, but one is obviously baeeter and faster in perspective even if initially, you spend some time on drawing the map, or n my case - creating the schematics.
