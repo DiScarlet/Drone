@@ -17,6 +17,8 @@ Useful references:
 * [https://docs.px4.io/main/en/frames_multicopter/holybro_x500v2_pixhawk6c](https://docs.px4.io/main/en/frames_multicopter/holybro_x500v2_pixhawk6c)
 * [https://docs.px4.io/main/assets/payloads_x500v2.BlKS32-f.png](https://docs.px4.io/main/assets/payloads_x500v2.BlKS32-f.png)
 * [https://ntu-aris.github.io/ntu_viral_dataset/images/hardware.jpg](https://ntu-aris.github.io/ntu_viral_dataset/images/hardware.jpg)
+* [https://docs.px4.io/main/assets/hero_image.DGHv_vvL.png](https://docs.px4.io/main/assets/hero_image.DGHv_vvL.png)
+
 
 The Holybro design also helped me understand how professional development drones package their electronics.
 
@@ -97,3 +99,28 @@ Overall, Design 2 feels much closer to a realistic research UAV than my original
 ![Design 1 and Design 2 side by side](<Images/Screenshot 2026-08-05 150440.png>)
 
 TODO : Wiring 
+
+-----------
+day 2
+
+I researched switching the drone's communication system to 4G/5G, designed the overall communication architecture, investigated remote control and video streaming options, and created a complete BOM with manufacturer dimensions, model names, and purchase links for all major components.
+cRETED ELEMENTS FOR KICAD FOR +- CONNECTIONS TO SEE. 
+
+6S_LiPo![alt text](<Images/Screenshot 2026-08-06 175430.png>)
+Intel_RealSense_D435i
+Micro_M10_GPS![alt text](<Images/Screenshot 2026-08-06 174946.png>)
+
+MN2806_EVO_KV650![alt text](<Images/Screenshot 2026-08-06 174951.png>)
+
+Pixhawk_Jetson![alt text](<Images/Screenshot 2026-08-06 174957.png>)
+
+PM02D![alt text](<Images/Screenshot 2026-08-06 175024.png>)
+
+Power_Distribution_Board![alt text](<Images/Screenshot 2026-08-06 175030.png>)
+
+Quectel_RM520N-GL_5G![alt text](<Images/Screenshot 2026-08-06 175036.png>)
+
+RP3_V2_ExpressLRS_2.4ghz_Nano![alt text](<Images/Screenshot 2026-08-06 175042.png>)
+ST_VL53L1X_Lidar![alt text](<Images/Screenshot 2026-08-06 175048.png>)
+VIFLY_Finder_V2![alt text](<Images/Screenshot 2026-08-06 175055.png>)
+XROTOR_Pro_60A![alt text](<Images/Screenshot 2026-08-06 175100.png>)
