@@ -1,0 +1,44 @@
+Info from Components.csv
+
+Total component weight:
+175 + 700 + 185 + 40 + 50 + 58.1×4 + 117×4 + 40×4 + 32 + 4.668 + 72 + 2.4×3 + 700 + 100 + 3×5 + 30
+= 2971.268 g ≈ 3.0 kg
+
+Estimated additional weight:
+- Wiring
+- Heatshrink
+- Connectors
+- Safety margin
+
+≈ 200 g
+
+Estimated total drone weight:
+3.2 kg
+
+Target thrust-to-weight ratio:
+2.3 : 1
+
+Required total thrust:
+3.2 × 2.3 = 7.36 kg ≈ 7.4 kg
+
+Required thrust per motor:
+7.4 / 4 = 1.84 kg
+
+Target thrust per motor:
+≈ 2 kg
+
+Design targets:
+- Propeller size: 12"
+- Number of blades: 2
+- Battery: 6S LiPo
+- Motor KV: 350–700 KV
+- Priority: Efficiency / Long flight time
+- Propeller material: Carbon-reinforced nylon
+
+ESC requirements:
+- Continuous current: 60 A
+- Peak current: 80 A
+
+Current motor candidate:
+T-Motor MN4012 Multirotor Fixed Wing UAV Motor, 480 KV
+https://cdn.shopify.com/s/files/1/0063/3946/1231/files/20250313160517.png?v=1741853160

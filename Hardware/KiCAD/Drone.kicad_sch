@@ -1,0 +1,5264 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dbeab996-a2b6-48e4-a4c7-f60c74c79e5e")
+	(paper "A4")
+	(title_block
+		(title "Drone General Schematics")
+		(date "2026-08-04")
+	)
+	(lib_symbols
+		(symbol "Drone_SYMBOLS:6S_LiPo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "6S_LiPo_0_1"
+				(rectangle
+					(start -12.7 7.3025)
+					(end 12.7 -7.3025)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "6S_LiPo_1_1"
+				(pin power_out line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "XT60(+,-)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "Balance_Connector"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:Conn_04to01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_04to01_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 8.89 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_04to01_1_1"
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 0 180)
+					(length 2.54)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:D-Link_D501_5G_USB_Adapter"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D-Link_D501_5G_USB_Adapter_0_1"
+				(rectangle
+					(start -10.16 7.62)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D-Link_D501_5G_USB_Adapter_1_1"
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "SIM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:Holybro Pixhawk Jetson Baseboard"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Holybro Pixhawk Jetson Baseboard_0_1"
+				(rectangle
+					(start -16.51 22.8599)
+					(end 16.51 -25.3999)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Holybro Pixhawk Jetson Baseboard_1_1"
+				(pin power_in line
+					(at -19.05 17.78 0)
+					(length 2.54)
+					(name "POWER1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 15.24 0)
+					(length 2.54)
+					(name "POWER2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -19.05 12.7 0)
+					(length 2.54)
+					(name "XT30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 7.62 0)
+					(length 2.54)
+					(name "TELEM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 5.08 0)
+					(length 2.54)
+					(name "TELEM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 2.54 0)
+					(length 2.54)
+					(name "Ethernet_P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 0 0)
+					(length 2.54)
+					(name "Ethernet_P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -2.54 0)
+					(length 2.54)
+					(name "OrinUSB_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -5.08 0)
+					(length 2.54)
+					(name "OrinUSB_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -7.62 0)
+					(length 2.54)
+					(name "UART4_&_I2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -10.16 0)
+					(length 2.54)
+					(name "I2C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -12.7 0)
+					(length 2.54)
+					(name "CAN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -15.24 0)
+					(length 2.54)
+					(name "CAN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -20.32 0)
+					(length 2.54)
+					(name "GPS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -19.05 -22.86 0)
+					(length 2.54)
+					(name "GPS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -27.94 90)
+					(length 2.54)
+					(name "SPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 90)
+					(length 2.54)
+					(name "ADC/I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -27.94 90)
+					(length 2.54)
+					(name "Debug"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 17.78 180)
+					(length 2.54)
+					(name "I/O_PWM_OUT(MAIN)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 15.24 180)
+					(length 2.54)
+					(name "FMU_PWM_OUT(AUX)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 8.89 180)
+					(length 2.54)
+					(name "FMU_Debug"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 6.35 180)
+					(length 2.54)
+					(name "I/O_Debug"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -2.54 180)
+					(length 2.54)
+					(name "CAM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 19.05 -5.08 180)
+					(length 2.54)
+					(name "CAM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -11.43 180)
+					(length 2.54)
+					(name "RC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 19.05 -13.97 180)
+					(length 2.54)
+					(name "DSM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 19.05 -16.51 180)
+					(length 2.54)
+					(name "SBUS_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:Holybro_PDB_60A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 4.572 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Holybro_PDB_60A_0_1"
+				(rectangle
+					(start -12.7 14.605)
+					(end 12.7 -14.605)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Holybro_PDB_60A_1_1"
+				(pin power_out line
+					(at -15.24 8.89 0)
+					(length 2.54)
+					(name "OUT_XT30_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 6.35 0)
+					(length 2.54)
+					(name "OUT_XT30_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "OUT_XT30_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 1.27 0)
+					(length 2.54)
+					(name "OUT_XT30_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -1.27 0)
+					(length 2.54)
+					(name "OUT_XT30_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "OUT_XT30_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -10.16 0)
+					(length 2.54)
+					(name "XT60_BATT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:Holybro_UBEC_12A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Holybro_UBEC_12A_0_1"
+				(rectangle
+					(start -10.16 6.35)
+					(end 10.16 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Holybro_UBEC_12A_1_1"
+				(pin power_in line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(name "INPUT(XT30)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "OUTPUT(XT30)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:Intel_RealSense_D435i"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Intel_RealSense_D435i_0_1"
+				(rectangle
+					(start -15.24 4.445)
+					(end 15.24 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Intel_RealSense_D435i_1_1"
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:M10_GPS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M10_GPS_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M10_GPS_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GPS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:MN2806_EVO_KV650"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MN2806_EVO_KV650_0_1"
+				(rectangle
+					(start -12.7 6.35)
+					(end 12.7 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MN2806_EVO_KV650_1_1"
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "MOTOR_INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:PM02D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PM02D_0_1"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PM02D_1_1"
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "BATT_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "PXWK_PWR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "BATT_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:RP3_V2_ExpressLRS_2.4ghz_Nano"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RP3_V2_ExpressLRS_2.4ghz_Nano_0_1"
+				(rectangle
+					(start -12.7 11.43)
+					(end 12.7 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RP3_V2_ExpressLRS_2.4ghz_Nano_1_1"
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "RC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "ANTENNA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:ST_VL53L1X_Lidar"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_0_1"
+				(rectangle
+					(start -8.89 3.175)
+					(end 8.89 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_1_1"
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "I2C(JST4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "XSHUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Drone_SYMBOLS:XROTOR_Pro_60A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_0_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_1_1"
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "MOTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ST_VL53L1X_Lidar_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_1_0_1"
+				(rectangle
+					(start -8.89 3.175)
+					(end 8.89 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_1_1_1"
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "I2C(JST4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "XSHUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ST_VL53L1X_Lidar_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_2_0_1"
+				(rectangle
+					(start -8.89 3.175)
+					(end 8.89 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ST_VL53L1X_Lidar_2_1_1"
+				(pin bidirectional line
+					(at -11.43 1.27 0)
+					(length 2.54)
+					(name "I2C(JST4)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -11.43 -1.27 0)
+					(length 2.54)
+					(name "XSHUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XROTOR_Pro_60A_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_1_0_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_1_1_1"
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "MOTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XROTOR_Pro_60A_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_2_0_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_2_1_1"
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "MOTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XROTOR_Pro_60A_3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_3_0_1"
+				(rectangle
+					(start -12.7 8.89)
+					(end 12.7 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XROTOR_Pro_60A_3_1_1"
+				(pin power_in line
+					(at -15.24 3.81 0)
+					(length 2.54)
+					(name "POWER"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -3.81 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "MOTOR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "LiDAR_1"
+		(exclude_from_sim no)
+		(at 141.478 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0a42b2bf-ef88-4042-ade5-7943a69d9d36")
+	)
+	(text "ESC_4"
+		(exclude_from_sim no)
+		(at 196.088 133.096 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c77db01-1888-4166-bd17-acc08820065e")
+	)
+	(text "Depth Camera"
+		(exclude_from_sim no)
+		(at 136.906 97.536 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "426ed493-4bc7-453a-8989-3b3cd91d224c")
+	)
+	(text "NAVIGATION"
+		(exclude_from_sim no)
+		(at 137.668 169.164 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "446158da-64f9-495d-9ad0-dc5fb9b861ca")
+	)
+	(text "UBEC\n"
+		(exclude_from_sim no)
+		(at 106.934 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "45ba0471-803b-4efb-a82f-8dac354f14bf")
+	)
+	(text "LiDAR_2"
+		(exclude_from_sim no)
+		(at 141.478 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "474d3652-0d2c-435d-87a6-ced43503ca5a")
+	)
+	(text "COMMUNICATION"
+		(exclude_from_sim no)
+		(at 67.31 163.83 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "4ec54414-e217-4388-a506-04ab968bbef2")
+	)
+	(text "RCVR"
+		(exclude_from_sim no)
+		(at 91.948 171.196 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "530b4d19-8116-4bf1-969b-f43b9a922116")
+	)
+	(text "Pixhawk 6x \nJetson Baseboard"
+		(exclude_from_sim no)
+		(at 50.546 91.44 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+		)
+		(uuid "62b7dc9e-b62e-40ca-86c9-2ef3513fa194")
+	)
+	(text "PWM ESC to FC Connector"
+		(exclude_from_sim no)
+		(at 192.278 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "668b6b34-7821-4dcd-ad9f-0e147a11b0ed")
+	)
+	(text "POWER"
+		(exclude_from_sim no)
+		(at 115.062 46.99 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "6720fec3-d6a8-4156-9032-c6b79498d9b2")
+	)
+	(text "Motor_3"
+		(exclude_from_sim no)
+		(at 257.048 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69fb5711-0fed-4d47-b67a-6dcbfc3b94c0")
+	)
+	(text "MOTORS"
+		(exclude_from_sim no)
+		(at 248.666 47.752 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "883390e4-b02c-4c45-be81-cd0c05724e30")
+	)
+	(text "ESC_3"
+		(exclude_from_sim no)
+		(at 196.088 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b77ade6-884c-4362-8cb4-7d185992f9c6")
+	)
+	(text "Power Distribution Board"
+		(exclude_from_sim no)
+		(at 58.674 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a14b6136-159d-4905-bd5e-c7bd289de1e6")
+	)
+	(text "PM02D Power Module"
+		(exclude_from_sim no)
+		(at 109.474 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2950b2f-1d84-463b-a320-8bb82dc3fa17")
+	)
+	(text "ESC_2"
+		(exclude_from_sim no)
+		(at 196.088 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a2b22cc1-16ed-4e22-a140-c1b94566c4cd")
+	)
+	(text "GPS + Compass"
+		(exclude_from_sim no)
+		(at 138.176 176.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a67d3129-4018-4adf-940b-0bb77b93172d")
+	)
+	(text "Motor_2"
+		(exclude_from_sim no)
+		(at 257.048 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a84f4f33-a537-4319-9b41-bb2403aaff81")
+	)
+	(text "ESC_1"
+		(exclude_from_sim no)
+		(at 196.088 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b255da0c-fde0-44a0-bcd0-63fe281183bc")
+	)
+	(text "VISION"
+		(exclude_from_sim no)
+		(at 111.76 146.304 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "ca3705cc-376b-4703-9a48-938317af5238")
+	)
+	(text "ESC"
+		(exclude_from_sim no)
+		(at 177.038 24.13 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "d0fb6f0f-a325-410a-b72d-3dc20c5384f0")
+	)
+	(text "Motor_4"
+		(exclude_from_sim no)
+		(at 257.048 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd1e656e-3b06-47e7-9960-a3a73224c779")
+	)
+	(text "6S Battery"
+		(exclude_from_sim no)
+		(at 58.166 20.066 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e630cfba-f649-4f0e-a604-94d00755d9b9")
+	)
+	(text "LiDAR_3"
+		(exclude_from_sim no)
+		(at 141.478 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e66e2cc4-8e55-47b5-8a33-329e244f0b1a")
+	)
+	(text "5G Module"
+		(exclude_from_sim no)
+		(at 44.45 171.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8797bfa-886f-4fb3-8238-2e2d8108dc9c")
+	)
+	(text "Motor_1"
+		(exclude_from_sim no)
+		(at 257.048 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb6cc6f4-bb5b-499a-9c05-4889c6f2880c")
+	)
+	(junction
+		(at 241.3 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4db4b4-0276-47a2-b3a6-663b692e98f6")
+	)
+	(junction
+		(at 241.3 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5562f050-098e-490c-87c1-349a20e3056b")
+	)
+	(junction
+		(at 241.3 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84b114d4-6446-4c5d-910e-5b0936c9ad5c")
+	)
+	(junction
+		(at 241.3 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b0ce98e-7303-4230-95d5-ba9c49f6e173")
+	)
+	(no_connect
+		(at 130.81 148.59)
+		(uuid "02775262-f117-4f1a-8194-d49fcb3d1198")
+	)
+	(no_connect
+		(at 57.15 181.61)
+		(uuid "076ffa72-8c73-41cb-a47b-9684daf9e66c")
+	)
+	(no_connect
+		(at 69.85 115.57)
+		(uuid "0f73c900-23c2-460b-8abb-afb99c38e7eb")
+	)
+	(no_connect
+		(at 73.66 33.02)
+		(uuid "28fc6faa-6b80-49fa-a215-3cf772c460d2")
+	)
+	(no_connect
+		(at 31.75 147.32)
+		(uuid "3dd1d619-b8e8-458a-94f2-2e99d7f78ee3")
+	)
+	(no_connect
+		(at 130.81 133.35)
+		(uuid "51f5085b-a0ab-4634-91bc-1f5775c10c41")
+	)
+	(no_connect
+		(at 31.75 134.62)
+		(uuid "5a52057a-3d78-44f6-a585-ab1b2c556593")
+	)
+	(no_connect
+		(at 31.75 119.38)
+		(uuid "5da66fd9-6f85-48a0-8b31-93d182f78550")
+	)
+	(no_connect
+		(at 31.75 116.84)
+		(uuid "65c78d2a-6a96-4273-b59f-cf7ee1f965a2")
+	)
+	(no_connect
+		(at 53.34 152.4)
+		(uuid "7df0a87f-0cc5-4e01-bb01-aaca2a879559")
+	)
+	(no_connect
+		(at 69.85 129.54)
+		(uuid "82fc85f9-886f-4470-b444-1d5eabaabe0a")
+	)
+	(no_connect
+		(at 31.75 139.7)
+		(uuid "8ce58e37-76cb-4637-90f1-3d36fbd442b0")
+	)
+	(no_connect
+		(at 31.75 121.92)
+		(uuid "8e04d20d-f230-4fcf-bdff-68d166c5fd1b")
+	)
+	(no_connect
+		(at 31.75 137.16)
+		(uuid "91cf209d-d63c-44d8-aa26-b43afcd1ee2a")
+	)
+	(no_connect
+		(at 69.85 118.11)
+		(uuid "91f854ce-d18e-4aa1-a2f5-2590652cfe6f")
+	)
+	(no_connect
+		(at 69.85 138.43)
+		(uuid "92f5c479-c5cc-4c32-b0e6-e923c370fa6a")
+	)
+	(no_connect
+		(at 69.85 109.22)
+		(uuid "9506d1b5-da2d-488d-9add-1900f38c4a33")
+	)
+	(no_connect
+		(at 69.85 140.97)
+		(uuid "b0e66cb3-0a22-4208-aa30-9d01067a0816")
+	)
+	(no_connect
+		(at 130.81 119.38)
+		(uuid "cdd33c9d-2b5a-45e2-9198-74a6a1ca948b")
+	)
+	(no_connect
+		(at 50.8 152.4)
+		(uuid "d92cea75-572b-4072-b6b6-20dc2ef0e25a")
+	)
+	(no_connect
+		(at 73.66 58.42)
+		(uuid "d94acc5c-2f5d-41a8-96a0-a74fa047061c")
+	)
+	(no_connect
+		(at 48.26 152.4)
+		(uuid "e212e8a8-825c-4a62-984d-ba3f227cb1e7")
+	)
+	(no_connect
+		(at 31.75 124.46)
+		(uuid "ec23132f-d8fb-4864-973a-dbad4d0bebb3")
+	)
+	(no_connect
+		(at 69.85 127)
+		(uuid "f5c6aa37-cd75-4bd6-94a4-c3a4d3543a97")
+	)
+	(no_connect
+		(at 31.75 109.22)
+		(uuid "f6d45cc5-a5df-46a2-8707-c28d842f4e37")
+	)
+	(wire
+		(pts
+			(xy 73.66 176.53) (xy 73.66 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d66640-0137-4223-afd0-14656112b588")
+	)
+	(wire
+		(pts
+			(xy 73.66 49.53) (xy 93.98 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fea7a68-417c-4b3e-b609-e61ed8169cb9")
+	)
+	(wire
+		(pts
+			(xy 210.82 118.11) (xy 241.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "173c9d28-f453-4610-b282-d15f87cbe17b")
+	)
+	(polyline
+		(pts
+			(xy 41.91 78.74) (xy 41.91 15.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "20c82b74-51f0-480a-80c2-392de70c7da3")
+	)
+	(wire
+		(pts
+			(xy 246.38 118.11) (xy 241.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20eb8bdd-f742-43f3-8351-76ba539ffc75")
+	)
+	(wire
+		(pts
+			(xy 246.38 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213452f0-ede0-45c5-af67-452b1c8acb93")
+	)
+	(wire
+		(pts
+			(xy 73.66 27.94) (xy 93.98 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2701e1db-15c1-4c6d-bf9c-d05e57c244f6")
+	)
+	(polyline
+		(pts
+			(xy 165.1 158.75) (xy 223.52 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "2a9b02b6-958c-4454-afe3-4987d179445b")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 93.98 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c747586-afd1-45d7-b8c0-de33a8f58bcd")
+	)
+	(polyline
+		(pts
+			(xy 231.14 41.91) (xy 231.14 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "376d223e-12e2-472d-a76f-89d3ea1f0d83")
+	)
+	(wire
+		(pts
+			(xy 246.38 144.78) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec6c931-d233-43e3-b47e-2f6c2cde2788")
+	)
+	(wire
+		(pts
+			(xy 130.81 116.84) (xy 128.27 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462f96b1-40f9-452f-94d0-7f4efd73bf6b")
+	)
+	(polyline
+		(pts
+			(xy 160.02 193.04) (xy 115.57 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "46c080b5-6903-44b5-a2fd-e9a29efc12f1")
+	)
+	(polyline
+		(pts
+			(xy 110.49 193.04) (xy 110.49 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "50765dda-e8e4-4607-8848-66d718ace5a2")
+	)
+	(polyline
+		(pts
+			(xy 15.24 154.94) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "5a4afcd1-83e2-4318-a96f-125feaf7ede8")
+	)
+	(polyline
+		(pts
+			(xy 231.14 158.75) (xy 279.4 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "5f788c84-087e-417a-903c-288879214786")
+	)
+	(wire
+		(pts
+			(xy 128.27 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6159a1f8-619f-46f4-afeb-91fcf06bfc12")
+	)
+	(polyline
+		(pts
+			(xy 165.1 17.78) (xy 165.1 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "667064a2-86d5-4d1e-94b9-10b92d732a50")
+	)
+	(wire
+		(pts
+			(xy 67.31 181.61) (xy 76.2 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fe879f-3c38-408b-944b-36a5cf845d80")
+	)
+	(polyline
+		(pts
+			(xy 137.16 78.74) (xy 41.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "74140440-7c3a-42cf-b7e9-3b7363e9eaa2")
+	)
+	(polyline
+		(pts
+			(xy 15.24 82.55) (xy 15.24 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "76678b5c-1785-4ac2-b899-7baeff2be456")
+	)
+	(polyline
+		(pts
+			(xy 158.75 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "79a3c2cb-3274-46e4-b33e-771030e2e64f")
+	)
+	(wire
+		(pts
+			(xy 246.38 91.44) (xy 241.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d1807b-74d0-456a-8f3e-6bddb8e53837")
+	)
+	(polyline
+		(pts
+			(xy 115.57 163.83) (xy 160.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "814a9fc1-5305-43dc-8254-af3f587630fa")
+	)
+	(polyline
+		(pts
+			(xy 223.52 158.75) (xy 223.52 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "82d78246-46fd-418b-b6a7-4c676b1d40fb")
+	)
+	(polyline
+		(pts
+			(xy 21.59 158.75) (xy 21.59 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "88886a63-ec87-4edd-8e72-80ab1d89cdba")
+	)
+	(wire
+		(pts
+			(xy 93.98 49.53) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a20779b-bcbe-471b-83a7-ea8b85b71710")
+	)
+	(polyline
+		(pts
+			(xy 93.98 154.94) (xy 158.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "9e2ea056-7890-4bc1-b4a0-cd62144809de")
+	)
+	(polyline
+		(pts
+			(xy 110.49 158.75) (xy 21.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "a64c7a13-1b8f-4b3f-b8e5-266294476e72")
+	)
+	(wire
+		(pts
+			(xy 210.82 144.78) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95d621e-b3c2-4e71-add2-f4c36622c12f")
+	)
+	(polyline
+		(pts
+			(xy 115.57 193.04) (xy 115.57 163.83)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "b3c035b8-a000-4197-88a6-2e793a79c5f6")
+	)
+	(wire
+		(pts
+			(xy 73.66 186.69) (xy 76.2 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9bbe45-2fe7-4db9-bc76-67b9f81dd99e")
+	)
+	(polyline
+		(pts
+			(xy 158.75 93.98) (xy 158.75 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "bb319e04-8b87-4413-9659-eb8a2aaaa742")
+	)
+	(wire
+		(pts
+			(xy 121.92 130.81) (xy 130.81 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dc7df9-d42b-44d6-a6ae-e9c83febf5ee")
+	)
+	(polyline
+		(pts
+			(xy 137.16 15.24) (xy 137.16 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "c693aab4-5ad0-4688-8ade-d53358449f5c")
+	)
+	(polyline
+		(pts
+			(xy 160.02 163.83) (xy 160.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "c85af5be-a160-496f-b694-29e5155c4c34")
+	)
+	(polyline
+		(pts
+			(xy 223.52 17.78) (xy 165.1 17.78)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "cc56498e-d6d4-4fc8-8c02-2b566705afa3")
+	)
+	(polyline
+		(pts
+			(xy 279.4 158.75) (xy 279.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "ccb2a0a5-ce98-4ae2-a8ad-1ab599da8537")
+	)
+	(wire
+		(pts
+			(xy 210.82 91.44) (xy 241.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d42dc571-c1c0-4a73-aef8-939fa2884959")
+	)
+	(polyline
+		(pts
+			(xy 88.9 82.55) (xy 15.24 82.55)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "da8812a6-690d-417f-999a-5d0a4fff4efc")
+	)
+	(wire
+		(pts
+			(xy 128.27 116.84) (xy 128.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daeb30b5-fe8f-4a9b-b0be-899331f00ef6")
+	)
+	(polyline
+		(pts
+			(xy 93.98 93.98) (xy 93.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "e199c11c-dca6-4516-8523-02379faf0f90")
+	)
+	(wire
+		(pts
+			(xy 76.2 176.53) (xy 73.66 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fbac89-7581-4584-8305-17fba4f8bbe3")
+	)
+	(polyline
+		(pts
+			(xy 110.49 193.04) (xy 21.59 193.04)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "eda38f02-a762-4df3-9237-30909a869738")
+	)
+	(polyline
+		(pts
+			(xy 231.14 41.91) (xy 279.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "ef05f1eb-3b57-4150-8d13-932dde3c218e")
+	)
+	(wire
+		(pts
+			(xy 210.82 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f312f41b-a83d-4cf4-a169-2d88ee0b51b7")
+	)
+	(polyline
+		(pts
+			(xy 88.9 82.55) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "f325607b-b3c5-4626-a094-81ac4663ca3b")
+	)
+	(polyline
+		(pts
+			(xy 41.91 15.24) (xy 137.16 15.24)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "f4368c0d-3cff-43b6-beaf-45bac4c28db9")
+	)
+	(polyline
+		(pts
+			(xy 137.16 17.78) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "fe8169a2-82ae-4435-81bd-cae4ac62b08c")
+	)
+	(polyline
+		(pts
+			(xy 21.59 193.04) (xy 21.59 191.77)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 184 138 255 1)
+		)
+		(uuid "feaf780b-caf8-4416-a9a4-1f96a9bc6f83")
+	)
+	(label "ESC4_PWM"
+		(at 181.61 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02beff09-380d-45a2-9324-8599aa835eae")
+	)
+	(label "5G_USB"
+		(at 31.75 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0445156a-5b9d-40fc-a9d1-155fe697e17c")
+	)
+	(label "ESC2_PWM"
+		(at 181.61 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0586c898-12e8-4e20-8ab0-3377104c10d9")
+	)
+	(label "FC(I)_ESC(O)_PWM"
+		(at 69.85 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0871eb0d-27cb-44d1-bc7b-dd72e056cf51")
+	)
+	(label "ESC3_PWM"
+		(at 180.34 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "090ba8be-e837-47ff-9b88-ba96092e4321")
+	)
+	(label "ESC4_PWR"
+		(at 180.34 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11e8963d-895d-492f-8dde-8fc37d4abbd6")
+	)
+	(label "LiDAR_I2C"
+		(at 31.75 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15f8c4b8-4432-4b8c-9229-580b140e69d9")
+	)
+	(label "ESC4_PWM"
+		(at 180.34 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "176050f4-9538-418c-8a71-67bc6c7c454e")
+	)
+	(label "ESC2_PWR"
+		(at 73.66 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cf60049-be0a-453a-86f3-5d40e2ca20a6")
+	)
+	(label "RCVR"
+		(at 67.31 181.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22a54b96-ed22-4e79-9d3d-3133cde3b136")
+	)
+	(label "Depth_CAM_USB"
+		(at 118.11 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2acdbe3b-4458-42d2-9809-ea443a5328d3")
+	)
+	(label "JETSON_PWR"
+		(at 31.75 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b015584-4902-445b-a2e1-641be397c55a")
+	)
+	(label "5G_USB"
+		(at 31.75 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3745aaeb-1cfe-4796-9f87-83b811cc3dca")
+	)
+	(label "JETSON_PWR"
+		(at 119.38 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b2e0528-ada7-4086-b4ff-bcf322a5f509")
+	)
+	(label "ESC2_PWR"
+		(at 180.34 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50a1e0e7-14a2-4189-8f64-f94bad67cfac")
+	)
+	(label "ESC3_PWR"
+		(at 180.34 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56c34095-6fbd-43b3-b875-d3aa24544ec5")
+	)
+	(label "GPS"
+		(at 128.27 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59cce79f-2cb3-4c64-b1f8-f86fe214b1dc")
+	)
+	(label "ESC2_PWM"
+		(at 180.34 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d456877-c569-4812-b3f7-4d207de8b393")
+	)
+	(label "ESC3_PWR"
+		(at 73.66 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61df01a5-bdbb-4a43-8644-a3dd2bc4b222")
+	)
+	(label "FC_PWR"
+		(at 93.98 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "666ca70e-68f2-434c-ac89-587da23db23b")
+	)
+	(label "FC_PWR"
+		(at 31.75 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7897bb74-c5d4-43b6-aa5d-37b58061b1d4")
+	)
+	(label "Depth_CAM_USB"
+		(at 31.75 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7aaf3143-2480-438f-90a2-15e2d888e681")
+	)
+	(label "LiDAR_I2C"
+		(at 121.92 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "85a9e0c7-6e89-4b03-b387-0795cf07732c")
+	)
+	(label "ESC1_PWR"
+		(at 180.34 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "890d32a6-ece7-49d4-b455-cdb63c55d7c1")
+	)
+	(label "GPS"
+		(at 31.75 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93902b27-c7d2-4b0f-8853-32f0b464478f")
+	)
+	(label "ESC3_PWM"
+		(at 181.61 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9453ad9a-ac42-4d50-9706-fd2402af01e2")
+	)
+	(label "ESC1_PWM"
+		(at 180.34 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b326247e-b198-4c9f-8bdb-a78f09af2766")
+	)
+	(label "FC(I)_ESC(O)_PWM"
+		(at 203.2 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfd2b867-ccb9-43eb-9237-509d950085c8")
+	)
+	(label "ESC4_PWR"
+		(at 73.66 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0d2818b-9c3e-460f-9232-8b669a34c45d")
+	)
+	(label "ESC1_PWM"
+		(at 181.61 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cbbc705f-d90d-4449-b838-eac5ce0ca3a0")
+	)
+	(label "ESC1_PWR"
+		(at 73.66 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d22af649-309f-45c4-8225-0e5b79f204d9")
+	)
+	(label "RCVR"
+		(at 69.85 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4dd977e-9f2c-482d-b340-da6eea9c74d4")
+	)
+	(label "BATT_PM02D"
+		(at 80.01 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb652b3c-6c00-4c8c-8b26-3d6fc4b0613c")
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:RP3_V2_ExpressLRS_2.4ghz_Nano")
+		(at 91.44 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fd9654b-8cc9-4491-97ac-9ad4aef5b131")
+		(property "Reference" "U8"
+			(at 93.218 181.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 105.41 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "45df1c49-da11-45bc-9592-ad387e330157")
+		)
+		(pin ""
+			(uuid "f6d5a2fb-0cb8-4cd5-875d-f813fc8d45ef")
+		)
+		(pin ""
+			(uuid "6bb82684-e99f-4b89-b227-d900e2bb02fa")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:XROTOR_Pro_60A")
+		(at 195.58 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ff6101d-69a4-4a7d-ab7e-eecb395e47cc")
+		(property "Reference" "U5"
+			(at 194.564 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "61c0b031-d6a9-40f9-b0fe-f43f3c2dd894")
+		)
+		(pin ""
+			(uuid "21b982b7-9823-4681-8f06-e723e132ef05")
+		)
+		(pin ""
+			(uuid "8423be68-5ab0-4ef0-85d4-971535679da5")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:Holybro_PDB_60A")
+		(at 58.42 59.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25afb591-5e47-4894-a4be-86be5656500f")
+		(property "Reference" "U3"
+			(at 54.864 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "048bedc8-96bc-43f5-9f7a-73a01b8e5c89")
+		)
+		(pin ""
+			(uuid "5528f6ee-a469-48da-999a-bc11628c5834")
+		)
+		(pin ""
+			(uuid "745a9820-fb37-48dc-9d8a-816fd2ba9989")
+		)
+		(pin ""
+			(uuid "2659ddda-02ac-4939-9c32-ad9418d053ed")
+		)
+		(pin ""
+			(uuid "69ae3e5c-bd65-483d-af14-5d0de302f613")
+		)
+		(pin ""
+			(uuid "407ef24b-89bf-48f2-91f8-bf9ca9bbf708")
+		)
+		(pin ""
+			(uuid "63e71360-7469-4c5b-ad4f-71439bb00965")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:6S_LiPo")
+		(at 58.42 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "306ffa13-c08b-4ed8-ae59-a283eb6adc79")
+		(property "Reference" "U1"
+			(at 58.42 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 58.42 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3196b268-e215-4c1b-95da-c139aba6b1fb")
+		)
+		(pin ""
+			(uuid "43fc6f28-5852-48d8-b853-336975a8cb60")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:MN2806_EVO_KV650")
+		(at 256.54 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "343271cd-72f6-40b2-83f7-c4d93803e4cf")
+		(property "Reference" "U17"
+			(at 270.51 90.8049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "84694f24-f9d6-4d97-b242-824b852138cf")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:ST_VL53L1X_Lidar")
+		(at 142.24 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "349587c9-4bb7-4adf-8ae6-8e32eb08af19")
+		(property "Reference" "U7"
+			(at 146.558 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "38421c71-077b-4918-bbce-557e4a6207b2")
+		)
+		(pin ""
+			(uuid "1efc7b90-9618-4e4f-b153-88ce05bc8131")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:PM02D")
+		(at 109.22 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "389cf57d-e3e3-43cd-9457-b48487a47693")
+		(property "Reference" "U2"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "f9fecd22-45e1-447a-8fb9-7c7aea3bd9db")
+		)
+		(pin ""
+			(uuid "f98a6966-b9dc-4ebd-9c37-c37b4e5852a5")
+		)
+		(pin ""
+			(uuid "302f6ff5-e547-43fa-96bf-ca07b2cc76c0")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:MN2806_EVO_KV650")
+		(at 256.54 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4037f699-55d0-4d7a-acf6-b2aff0c0aa54")
+		(property "Reference" "U11"
+			(at 270.51 65.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "03c911fb-29be-4bc4-8059-cba159d79c0c")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:D-Link_D501_5G_USB_Adapter")
+		(at 44.45 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "493afc2b-659f-477a-a579-8cf471379dbe")
+		(property "Reference" "U9"
+			(at 44.45 181.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 44.45 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "7a4a6827-c5dd-4f7e-a1a6-640e4b68b233")
+		)
+		(pin ""
+			(uuid "259af748-80d2-4427-842c-59178c62e183")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ST_VL53L1X_Lidar_1")
+		(lib_id "Drone_SYMBOLS:ST_VL53L1X_Lidar")
+		(at 142.24 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727998ac-b24a-42d0-81ed-a4cdce248f75")
+		(property "Reference" "U20"
+			(at 146.558 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "873f6092-2b66-4cf1-b82f-6ee0e8b8295e")
+		)
+		(pin ""
+			(uuid "fb472277-b063-4298-a8da-9b64616167f6")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:Holybro Pixhawk Jetson Baseboard")
+		(at 50.8 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9822cea4-fff8-46e7-a650-50399eeaddde")
+		(property "Reference" "U4"
+			(at 51.054 124.206 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "730960fb-5cde-40a4-a52e-138d12f56987")
+		)
+		(pin ""
+			(uuid "eb305509-bc88-44db-bc51-127df706ed59")
+		)
+		(pin ""
+			(uuid "8e0c237d-3487-4e87-a732-bb35abdb4a60")
+		)
+		(pin ""
+			(uuid "2f96b82e-3180-4ff2-adf9-e8e6bbcc6a0f")
+		)
+		(pin ""
+			(uuid "c787c243-7f9a-4771-9874-43e250de905c")
+		)
+		(pin ""
+			(uuid "8a9b67b1-3f1d-4f2c-9b00-c79192e20ae9")
+		)
+		(pin ""
+			(uuid "f1a91eec-c897-4b44-902e-7df50a17fe7f")
+		)
+		(pin ""
+			(uuid "84ca28a3-97e0-430e-8ffe-b35fa3859bed")
+		)
+		(pin ""
+			(uuid "042fb6fc-9aa7-41cb-b553-b64e3343d9d6")
+		)
+		(pin ""
+			(uuid "34480ab6-52ec-4175-b3b3-c857af0c7654")
+		)
+		(pin ""
+			(uuid "5ec51275-2892-48e8-b699-3fdb100792e2")
+		)
+		(pin ""
+			(uuid "55ddf892-6302-40e3-ba17-f7ea59b59d41")
+		)
+		(pin ""
+			(uuid "4cc0f2d7-9762-4196-b23f-34f80ae58ce0")
+		)
+		(pin ""
+			(uuid "b2026c86-a7b0-4ecf-aee3-d65550cbc65f")
+		)
+		(pin ""
+			(uuid "5bdd73d1-a829-40f8-a87b-cef3818dcc13")
+		)
+		(pin ""
+			(uuid "ff3c2f68-5af6-4d98-9c0d-3dcb43223791")
+		)
+		(pin ""
+			(uuid "60fae4c6-7493-454e-8dc2-f96a05e52ed5")
+		)
+		(pin ""
+			(uuid "163605d1-8c4e-4212-a6c1-48064910ed55")
+		)
+		(pin ""
+			(uuid "7487ef69-5c15-4621-b850-4ca3b15b4c73")
+		)
+		(pin ""
+			(uuid "8c604627-6eb5-428a-8a6a-4b5c9435c9ee")
+		)
+		(pin ""
+			(uuid "8701410e-95de-4e50-b817-3bb90a578f27")
+		)
+		(pin ""
+			(uuid "7210a144-8ed7-4892-b388-b59fc317ee75")
+		)
+		(pin ""
+			(uuid "0e35b94e-0cc6-4095-99e8-9149136a06e1")
+		)
+		(pin ""
+			(uuid "b147e853-447b-42e4-bda8-31ca98174fde")
+		)
+		(pin ""
+			(uuid "237f3a9c-1498-46fa-8a92-2a9bda68b835")
+		)
+		(pin ""
+			(uuid "b20a151b-eb6c-48e0-bafe-ad1ab8249deb")
+		)
+		(pin ""
+			(uuid "1dcdd2fa-097e-460e-a1b1-fed24dec42d9")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XROTOR_Pro_60A_1")
+		(lib_id "Drone_SYMBOLS:XROTOR_Pro_60A")
+		(at 195.58 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98e7b155-7ba7-4586-bb67-365009139d11")
+		(property "Reference" "U10"
+			(at 194.564 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "dd6ef3a1-28ff-4e89-90b8-fcaea5b62f9c")
+		)
+		(pin ""
+			(uuid "e56eab57-b80b-400c-ad7f-8395c1f6cac1")
+		)
+		(pin ""
+			(uuid "85cee811-654f-47a7-a7f1-b596b0eb62f9")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:M10_GPS")
+		(at 138.43 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a35f9059-7a38-4a62-9d85-5ca10c3d0ae9")
+		(property "Reference" "U12"
+			(at 141.224 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "04f61e18-b706-462e-b784-f720617a8c75")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:Holybro_UBEC_12A")
+		(at 106.68 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4cdb11c-8800-4b3b-9a4a-483e2ede4eab")
+		(property "Reference" "U6"
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "b6fb6393-ea2f-43de-b297-94a1b2484c31")
+		)
+		(pin ""
+			(uuid "4cfd3360-017f-4186-b546-4b72c8046d20")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:MN2806_EVO_KV650")
+		(at 256.54 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87f697d-a72d-4564-a5cb-0baf67ac0be5")
+		(property "Reference" "U18"
+			(at 270.51 117.4749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "d487091b-9b95-48ab-a9ba-2fa358c5d708")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:MN2806_EVO_KV650")
+		(at 256.54 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78d2260-91a4-4020-a207-71acd516de01")
+		(property "Reference" "U19"
+			(at 270.51 144.1449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 270.51 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8059783e-e188-4fa7-a4a2-6692914bfbf2")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ST_VL53L1X_Lidar_2")
+		(lib_id "Drone_SYMBOLS:ST_VL53L1X_Lidar")
+		(at 142.24 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4d665ca-bd14-4ede-9f7f-862c6624e687")
+		(property "Reference" "U21"
+			(at 146.558 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 152.4 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "c984bea6-2e79-49eb-bbed-5a3d03614533")
+		)
+		(pin ""
+			(uuid "bbfbed08-9c92-4c13-98bb-42e618d25440")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:Intel_RealSense_D435i")
+		(at 135.89 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d6813550-7cda-40df-969d-68bf5f93d95a")
+		(property "Reference" "U13"
+			(at 136.144 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 135.89 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5e533956-93ce-4c5e-90ae-39d60b188ab4")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XROTOR_Pro_60A_3")
+		(lib_id "Drone_SYMBOLS:XROTOR_Pro_60A")
+		(at 195.58 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db0b9a95-923a-4943-acd0-a2c75c70624d")
+		(property "Reference" "U15"
+			(at 194.564 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "bee04851-e726-47aa-afad-b49edc68918d")
+		)
+		(pin ""
+			(uuid "2b32e515-6b9d-4879-9c64-eb839f051761")
+		)
+		(pin ""
+			(uuid "4e378022-ef84-4c1f-817c-bb8d6f1e2739")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "XROTOR_Pro_60A_2")
+		(lib_id "Drone_SYMBOLS:XROTOR_Pro_60A")
+		(at 195.58 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1109b8d-3a19-4f6a-8f14-a61a698460f3")
+		(property "Reference" "U14"
+			(at 194.564 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 209.55 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "a04ea891-94be-4452-9fe1-17bf25004278")
+		)
+		(pin ""
+			(uuid "e4699946-2550-48c3-830b-ee6fc2d196c2")
+		)
+		(pin ""
+			(uuid "c3a99601-b2d3-4d83-94a9-48a2acdfa06b")
+		)
+		(instances
+			(project "Drone"
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Drone_SYMBOLS:Conn_04to01")
+		(at 191.77 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f70cb50a-af92-4f52-bd44-5518fea18644")
+		(property "Reference" "U16"
+			(at 192.786 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 192.405 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "5a3595c0-e3c5-46a6-9b97-2db0dd06e334")
+		)
+		(pin ""
+			(uuid "ff30165c-2e9d-4284-924c-2276eecd8cc0")
+		)
+		(pin ""
+			(uuid "444ae048-244f-40ac-9945-1a38e6ed4fac")
+		)
+		(pin ""
+			(uuid "1b7087e0-4902-4a40-80ef-75e8b89a4bff")
+		)
+		(pin ""
+			(uuid "e31e6208-801b-43dd-9038-ad936aeb7ed4")
+		)
+		(instances
+			(project ""
+				(path "/dbeab996-a2b6-48e4-a4c7-f60c74c79e5e"
+					(reference "U16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
