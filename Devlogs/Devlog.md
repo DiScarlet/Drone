@@ -137,3 +137,14 @@ Finally, I created the first version of the complete system schematic in KiCad. 
 ![Schematics V1](<Images/Screenshot 2026-08-07 012645.png>)
 
 There is still some uncertainty around some connector choices and communication hardware, so I expect that the schematic moght change over the next few days. Overall, I am satisfied with the results. One might argue it was unessesaary, but it is like trying to find buried treasures by memory or by map - both options have rights to exist, but one is obviously baeeter and faster in perspective even if initially, you spend some time on drawing the map, or n my case - creating the schematics.
+
+
+
+-----
+day 3
+
+i have connections i want in kicad now i draw connectors in physical locations on a board o see if everything would allign eventually or nto
+
+![Drone desin v3.2 with conectors](<Images/Screenshot 2026-08-07 153241.png>)
+
+schpse props, esc and finally motors. done with all main chnages in hardware componnets
