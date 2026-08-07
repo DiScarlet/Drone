@@ -1,10 +1,10 @@
 Category,Model,Manufacturer Dimensions (mm),Mass(gr/per 1),Manufacturer / Buy Link
 Flight Controller,Holybro Pixhawk Jetson Baseboard + Pixhawk 6X (with Jetson Orin NX),126 x 80 x 38.6,175,https://docs.holybro.com/autopilot/pixhawk-baseboards/pixhawk-jetson-baseboard/dimension-and-weight
-Power,Tattu 6S 5000mAh LiPo (XT60),165 x 45 x 43,700,https://www.foxtechfpv.com/tattu-6s-5000mah-lipo-battery.html?srsltid=AfmBOoqAEoDZKoBn8inj-ldGo5-AqTkLfZy8169A43cAt6xvu2dqpPG8
+Power,Tattu 6S 6000–8000 mAh LiPo (XT60),165 x 45 x 43,700,https://www.foxtechfpv.com/tattu-6s-5000mah-lipo-battery.html?srsltid=AfmBOoqAEoDZKoBn8inj-ldGo5-AqTkLfZy8169A43cAt6xvu2dqpPG8
 Power,Holybro PM02D HV Power Module,25 x 25 x 10,185,https://docs.holybro.com/power-module-and-pdb/power-module-comparison, https://holybro.com/products/pm02d-power-module?srsltid=AfmBOoqcw4btCuK5OHYmgIeiD_lcLRLJZByt4AoSLKQefLNL_njvNqHT
 Power,Holybro Power Distribution Board (PDB) 60A,50 x 50 x 8,40,https://shop.thebioniceye.co.uk/products/holybro-60a?srsltid=AfmBOooZO4nanTuSxcHnEsDVXxuyDpoT9Va7VZMrv0b9aLmG2NGfQZx7&variant=48882750226625
 Power, Holybro UBEC 12A, 48 x 33.6 x 16.3,50,https://holybro.com/products/ubec-12a?srsltid=AfmBOorcclSu5ZED8_PnxoWJMVMNvr8-PdViFD-zYugvBGFu-KVDiefs
-Motor Control,T-MOTOR ALPHA 60A 12S V1.2,32.5 x 80.2 x 16,73,https://uav-en.tmotor.com/2018/alpha_1023/161.html
+ESC,T-MOTOR ALPHA 60A 12S V1.2,32.5 x 80.2 x 16,73,https://uav-en.tmotor.com/2018/alpha_1023/161.html
 Propulsion,BrotherHobby Tornado T5 3115 Pro Motor 640KV,37.50 x 37.50 x 25.60,115.50,https://www.brotherhobbystore.com/tornado-t5-3115-pro-motor-p0088-p0088.html
 Propulsion,Three-blade folding propeller 9453,279 x 178 x 14.3,26.1,https://www.masterairscrew.com/products/gf-series-11x7-propeller?srsltid=AfmBOoprr1BXrdbUOM-K4Xh2w9On47E81yLrGnpcxRojD5JtyG-NbC6z
 Navigation,Holybro M10 GPS (IST8310 Compass),50 x 50 x 14.4,32,https://holybro.com/products/m10-gps

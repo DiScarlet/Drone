@@ -141,10 +141,17 @@ There is still some uncertainty around some connector choices and communication 
 
 
 -----
-day 3
+Day 3
 
-i have connections i want in kicad now i draw connectors in physical locations on a board o see if everything would allign eventually or nto
+Design V3.2
 
-![Drone desin v3.2 with conectors](<Images/Screenshot 2026-08-07 153241.png>)
+I already have the connections I want in KiCad, so now I started placing the connectors in their approximate physical locations on the board to see if everything will actually align and fit together eventually.
 
-schpse props, esc and finally motors. done with all main chnages in hardware componnets
+Shaped the props, ESCs and finally the motors. Done with all the main changes to the hardware components.
+
+Now onto downloading the components' 3D models (or at least whatever I can find) and starting the actual design in Fusion.
+
+Tnx GrabCAD, no copyright 💀
+Some models are +- previews and not ideal, but close enough for now. All rights to their owners.
+
+Found everything except the 5G module, so pretty satisfied. The model is getting pretty heavy though, and my laptop is struggling, so I might need to optimize everything before going too far.
