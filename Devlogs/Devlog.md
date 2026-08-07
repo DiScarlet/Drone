@@ -143,15 +143,37 @@ There is still some uncertainty around some connector choices and communication 
 -----
 Day 3
 
+Drone General Design : Part 6 : Real Connectors https://lapse.hackclub.com/timelapse/CkFQIcG4ptSY
+Drone General Design : Part 7 : Finalizing hardware choices https://lapse.hackclub.com/timelapse/vVLvC90nyClp
+Drone CAD Design : Part 1 : Downloading and Uploading Compns https://lapse.hackclub.com/timelapse/R_qcUxAQv0iU
+Drone CAD Design : Part 2 : D-Link D501 5G USB Adapter https://lapse.hackclub.com/timelapse/Ui7_f7U2WzdP
+
+
 Design V3.2
 
-I already have the connections I want in KiCad, so now I started placing the connectors in their approximate physical locations on the board to see if everything will actually align and fit together eventually.
+Today I started moving from the more theoretical hardware planning into actually putting everything together. I already had the connections I wanted in KiCad, so I started placing the connectors in their approximate physical locations to see if everything would actually align and fit together in the final design.
 
-Shaped the props, ESCs and finally the motors. Done with all the main changes to the hardware components.
+At the same time, I went through the propulsion setup again. I checked the required thrust based on the estimated 3.2 kg total weight and my target 2.3:1 safety ratio, which gives roughly 7.4 kg of total thrust, or about 1.85 kg per motor. I decided to aim for around 2 kg per motor to have some extra margin.
 
-Now onto downloading the components' 3D models (or at least whatever I can find) and starting the actual design in Fusion.
+I also spent quite a bit of time looking at the motor and propeller combination. I originally considered 10" and 12" setups, then checked actual manufacturer thrust tables instead of just relying on KV and motor size. For now I'm sticking with a 12" propeller, 6S battery and two-blade props, with efficiency and flight time being the priority. I'm currently looking around the 350–700 KV range and checking the actual thrust data for the motor rather than choosing based on KV alone.
 
-Tnx GrabCAD, no copyright 💀
-Some models are +- previews and not ideal, but close enough for now. All rights to their owners.
+After that I moved on to the actual 3D design. I started downloading the components' 3D models, or at least whatever I could find, so I can finally start building the drone properly in Fusion.
 
-Found everything except the 5G module, so pretty satisfied. The model is getting pretty heavy though, and my laptop is struggling, so I might need to optimize everything before going too far.
+Tnx GrabCAD, no copyright. Some models are +- previews and not ideal, but close enough for now. All rights to their owners.
+
+Strangely enough, my laptop was able to handle this moral violation of its laptop rights and kindly agreed to load all the components I found. The model is getting pretty heavy though, and it is already struggling a bit, so I might need to optimize the models before I get too far into the actual design.
+
+Strangely enough, my laptop was able to handle this moral violation of its laptop rights and kindly agreed to load all the components I found.
+
+
+![Power](<Images/Screenshot 2026-08-07 231127.png>)
+![Communication](<Images/Screenshot 2026-08-07 231739.png>)
+![ESC](<Images/Screenshot 2026-08-07 232015.png>)
+![Navigation](<Images/Screenshot 2026-08-07 232129.png>)
+![Propultion](<Images/Screenshot 2026-08-07 232319.png>)
+![Vision](<Images/Screenshot 2026-08-07 232448.png>)
+![All components](<Images/Screenshot 2026-08-07 233741.png>)
+
+The only component I was missing was the D-Link D501 5G USB Adapter, so I decided to just create the model myself. 
+Done.
+ ![D-Link D501 5G USB Adapter](<Images/Screenshot 2026-08-08 002027.png>)
