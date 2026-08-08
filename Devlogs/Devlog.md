@@ -177,3 +177,11 @@ Strangely enough, my laptop was able to handle this moral violation of its lapto
 The only component I was missing was the D-Link D501 5G USB Adapter, so I decided to just create the model myself. 
 Done.
  ![D-Link D501 5G USB Adapter](<Images/Screenshot 2026-08-08 002027.png>)
+
+
+ -----
+ Day 4
+
+ Onto drone design - place comp for Jet Fc and from it as base top plate draw. why the helly is gps ransprent and i cnt swirch its opacity back? Cry emdji
+ ![Top plate first version](<Images/Screenshot 2026-08-08 222519.png>)
+ ![Design Version 4](<Images/Screenshot 2026-08-08 222602.png>)
