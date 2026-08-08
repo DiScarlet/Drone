@@ -182,6 +182,31 @@ Done.
  -----
  Day 4
 
- Onto drone design - place comp for Jet Fc and from it as base top plate draw. why the helly is gps ransprent and i cnt swirch its opacity back? Cry emdji
- ![Top plate first version](<Images/Screenshot 2026-08-08 222519.png>)
- ![Design Version 4](<Images/Screenshot 2026-08-08 222602.png>)
+ Drone CAD Design : Part 3 : Top & Bottom Plates https://lapse.hackclub.com/timelapse/v_VVVfQ6t21S
+
+
+Design Version 4 is starting to look like an actual drone now, but I can already see some problems with the bottom plate. Might need to rethink a few things before I commit to it. Spent an unreasonable amount of time wondering why the hell the GPS suddenly became transparent and why I couldn't switch its opacity back.
+
+Also, I really don't like how huge the 5G adapter is. It currently looks like someone attached a brick to the drone and then asked it to fly. Definitely going to look for something smaller, or at least something with an antenna setup that has better aerodynamics than a cow.
+
+I'm also considering moving the UBEC to the front to free up some space around the 5G module, or possibly moving the 5G thing upstairs.
+
+Having all the main components placed at their actual 1:1 dimensions is already proving useful. I can finally see some of the misalignments and spacing problems that weren't obvious in the schematic, so I might have to rethink the placement of several components.
+
+And then I discovered another fun little detail:
+
+Cool, CF can interfere with RF. 
+
+Because apparently carbon fibre wasn't allowed to just be strong and lightweight. It also had to potentially mess with my radio signal.
+
+After deciding the huge 5G adapter probably isn't the final answer, I started looking into smaller 4G/5G options that can actually connect to the Jetson without taking half the drone with them.
+
+That led me to the LTE EG25-G Mini PCIe route.
+
+Instead of using a giant USB cellular adapter, I can potentially use the much smaller EG25-G Mini PCIe module with a suitable USB carrier and keep the whole communication setup much more compact.
+
+And because apparently I wasn't suffering enough already, I also decided to make the CAD model for the adapter myself.
+
+Then I started figuring out how the plates should actually sit relative to everything in Design V4.
+
+Overall, today was basically the point where the project moved from "I have a schematic with a bunch of boxes" to "oh shit, these things actually have physical dimensions and need to fit together."
