@@ -187,6 +187,10 @@ Done.
 
 Design Version 4 is starting to look like an actual drone now, but I can already see some problems with the bottom plate. Might need to rethink a few things before I commit to it. Spent an unreasonable amount of time wondering why the hell the GPS suddenly became transparent and why I couldn't switch its opacity back.
 
+
+![Design V4](<Images/Screenshot 2026-08-08 222602.png>)
+
+
 Also, I really don't like how huge the 5G adapter is. It currently looks like someone attached a brick to the drone and then asked it to fly. Definitely going to look for something smaller, or at least something with an antenna setup that has better aerodynamics than a cow.
 
 I'm also considering moving the UBEC to the front to free up some space around the 5G module, or possibly moving the 5G thing upstairs.
@@ -206,7 +210,12 @@ That led me to the LTE EG25-G Mini PCIe route.
 Instead of using a giant USB cellular adapter, I can potentially use the much smaller EG25-G Mini PCIe module with a suitable USB carrier and keep the whole communication setup much more compact.
 
 And because apparently I wasn't suffering enough already, I also decided to make the CAD model for the adapter myself.
-
+![LTE EG25-G Mini PCIe in a Mini PCI-E PCI-Express to USB Adapter](<Images/Screenshot 2026-08-09 013647.png>)
 Then I started figuring out how the plates should actually sit relative to everything in Design V4.
 
+![Top and bottom plates](<Images/Screenshot 2026-08-09 020030.png>)
+
 Overall, today was basically the point where the project moved from "I have a schematic with a bunch of boxes" to "oh shit, these things actually have physical dimensions and need to fit together."
+
+
+---------------
