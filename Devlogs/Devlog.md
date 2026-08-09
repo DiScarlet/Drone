@@ -219,3 +219,37 @@ Overall, today was basically the point where the project moved from "I have a sc
 
 
 ---------------
+DAy 5 
+
+Drone CAD Design : Part 4 : Design Version 5 https://lapse.hackclub.com/timelapse/LQik73zLpkbC
+
+Now to give myself some rest from all the hard stuff with plates, center of mass and torque, I decided to work on propulsion for a bit — figure out CW and CCW props, align the motors, and overall see if all the models actually fit tightly where they're supposed to.
+![Propulsion ellemnts in their supposed placements](<Images/Screenshot 2026-08-10 000604.png>)
+
+Now I need to think about the weight/thickness of the plates. Can't make them too thick because weight, but they also obviously need to hold the required load.
+
+The bottom one especially needs to support all the elements above it, plus the battery mounted underneath, so it makes sense to make it thicker than the top one.
+
+Started using the PWM EXT Board. Unfortunately this means I have to change the layout a bit, but it's probably for the better anyway. It gives me a much cleaner way of connecting the four ESCs instead of trying to make the original connector arrangement work.
+
+![PWM](Images/18118-1_1800x1800.jpg)
+
+
+I might have to use a little stick/mast to mount the GPS onto...
+
+Goddamn, placing all these elements is actually really hard. It's one thing to have everything connected logically in KiCad, and a completely different thing to make all of it physically fit while still leaving room for wires, mounting points, cooling, antennas, battery, etc.
+
+I tried a few dangerous things with the layout, but I'll probably do my own little mounting solution under the GPS rather than trying to copy someone else's setup.
+
+Things to consider next time / things I almost forgot:
+- Make a custom PWM board with the slots positioned like in Design V5, on the sides rather than using the standard Holybro arrangement.
+- Make the PWM connector arrangement actually suit my ESCs and their cables.
+- Think properly about the center of mass.
+- Figure out how I'm actually going to do all the mounting.
+- Re-check clearances once the mounting hardware is included.
+- Make sure the battery placement doesn't completely fuck up the balance.
+
+At this point the design is starting to look... hella complicated.
+
+![V5 Design Fusion](<Images/Screenshot 2026-08-10 015751.png>)
+![V5 Design Layout](<Images/Screenshot 2026-08-10 021141.png>)
