@@ -257,6 +257,7 @@ At this point the design is starting to look... hella complicated.
 ---------------------
 Day  6
 Created GPS mounting base
+Drone CAD Design : Part 6 : GPS, DepthC Mount & CoM Testing
 ![alt text](<Images/Screenshot 2026-08-22 145932.png>)
 bAS WUTH M2 THREADS
 ![alt text](<Images/Screenshot 2026-08-22 150639.png>)
@@ -264,3 +265,19 @@ fULL GPS VIEW
 ![alt text](<Images/Screenshot 2026-08-22 150810.png>)
 
 ddded custom ounting for my own frame.
+
+Center of mass testing: pronlem 
+![Centers of mass](<Images/Screenshot 2026-08-22 160317.png>)
+in the top deck the center of mass seems to be just fine 
+![Top plate](<Images/Screenshot 2026-08-22 160552.png>)
+lower plate's center of mass seesm to be way off
+![Lower Plate](<Images/Screenshot 2026-08-22 160644.png>)
+
+but for now this is only +- because this is based on worng matersials and amasses. now i neeed to find real masses (already done), see volume and create custom materail to get cutom denstiy to get.
+now i am doing center of mass calcualtions. if i try to +- cebter it in fusion but i know this will not be pecise i have autodesk cfd 2027 will it help me verify my results or do some more tests? any additional suggestions from you? is there a point in adding som custom lese to add weights ia ll cornens in case drone needs to be balanses after design or assembly? adiing weights has a point , but only along drone's width, beacuse from latitudal point of wiev it might be wrong, but from lngth's point of view it will be solvied by placind batery forward or backward. 
+ok, what useful stuff can i do in cfd.
+now depth camera mount - to extend bittom or to cut 
+make holes on top
+finished depth cam mount ![alt text](<Images/Screenshot 2026-08-22 202512.png>)
+now to get precice ceters of massi i will get volujme of each com and alsready having tagtet mass i will create components with custom density to get perfect tmass for comnonents/
+completed![PMD Cistom density edit](<Screenshot 2026-08-22 232312.png>)
