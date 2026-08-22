@@ -1,7 +1,8 @@
 Pixhawk6c size: https://docs.holybro.com/autopilot/pixhawk-6c/dimensions
 Link to the board where i drew the concept : https://app.idroo.com/boards/iBzdX5M0Z2
 Sample wiring: https://docs.px4.io/v1.16/assets/power2_one_big_battery_external_ubec.DHp-01JE.png
-
+Sample power routing:https://docs.px4.io/main/assets/pixhawk6x_wiring_diagram.BTILi51L.png
+Motor: https://ueeshop.ly200-cdn.com/u_file/UPAH/UPAH113/2411/photo/3f3ab78710.jpg?x-oss-process=image/format,webp
 
 
 Link to the board where i drew the concept : https://app.idroo.com/boards/iBzdX5M0Z2
@@ -18,3 +19,4 @@ Release sensor 2, initialize it, assign a new address.
 Release sensor 3, initialize it, assign a new address.
 
 This is the method recommended by ST.
+

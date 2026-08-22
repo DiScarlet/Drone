@@ -253,3 +253,14 @@ At this point the design is starting to look... hella complicated.
 
 ![V5 Design Fusion](<Images/Screenshot 2026-08-10 015751.png>)
 ![V5 Design Layout](<Images/Screenshot 2026-08-10 021141.png>)
+
+---------------------
+Day  6
+Created GPS mounting base
+![alt text](<Images/Screenshot 2026-08-22 145932.png>)
+bAS WUTH M2 THREADS
+![alt text](<Images/Screenshot 2026-08-22 150639.png>)
+fULL GPS VIEW
+![alt text](<Images/Screenshot 2026-08-22 150810.png>)
+
+ddded custom ounting for my own frame.
