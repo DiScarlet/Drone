@@ -273,7 +273,7 @@ in the top deck the center of mass seems to be just fine
 lower plate's center of mass seesm to be way off
 ![Lower Plate](<Images/Screenshot 2026-08-22 160644.png>)
 
-but for now this is only +- because this is based on worng matersials and amasses. now i neeed to find real masses (already done), see volume and create custom materail to get cutom denstiy to get.
+But for now this is only +- because this is based on wrong materials and masses. I already found the real masses, so now I need to get the volume of each component and create custom materials with custom densities to get the correct mass in Fusion.
 now i am doing center of mass calcualtions. if i try to +- cebter it in fusion but i know this will not be pecise i have autodesk cfd 2027 will it help me verify my results or do some more tests? any additional suggestions from you? is there a point in adding som custom lese to add weights ia ll cornens in case drone needs to be balanses after design or assembly? adiing weights has a point , but only along drone's width, beacuse from latitudal point of wiev it might be wrong, but from lngth's point of view it will be solvied by placind batery forward or backward. 
 ok, what useful stuff can i do in cfd.
 now depth camera mount - to extend bittom or to cut 
@@ -281,3 +281,4 @@ make holes on top
 finished depth cam mount ![alt text](<Images/Screenshot 2026-08-22 202512.png>)
 now to get precice ceters of massi i will get volujme of each com and alsready having tagtet mass i will create components with custom density to get perfect tmass for comnonents/
 completed![PMD Cistom density edit](<Screenshot 2026-08-22 232312.png>)
+[Centers of Mass](Devlog.md)Top center of mass is almost perfect whilst bottom is way off but may be fixed by adjusting the position of the battery. So overall not that bad, I think the next step will be adding some cooing holes to prevernt demanding componnets from overheat ando mounting places for screws etc![Manged to center bottom cm alng y axis](<Images/Screenshot 2026-08-22 234318.png>)
