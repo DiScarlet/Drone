@@ -20,3 +20,9 @@ Release sensor 3, initialize it, assign a new address.
 
 This is the method recommended by ST.
 
+Deadcat dorne arms anle configuartions. 
+for Intel RealSense D435i 
+Depth Sensor FOVT (slightly to the right)
+    Horizontal: 87° 
+RGB Sensor FOV
+    Horizontal: 69°

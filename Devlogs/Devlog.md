@@ -282,3 +282,33 @@ finished depth cam mount ![alt text](<Images/Screenshot 2026-08-22 202512.png>)
 now to get precice ceters of massi i will get volujme of each com and alsready having tagtet mass i will create components with custom density to get perfect tmass for comnonents/
 completed![PMD Cistom density edit](<Screenshot 2026-08-22 232312.png>)
 [Centers of Mass](Devlog.md)Top center of mass is almost perfect whilst bottom is way off but may be fixed by adjusting the position of the battery. So overall not that bad, I think the next step will be adding some cooing holes to prevernt demanding componnets from overheat ando mounting places for screws etc![Manged to center bottom cm alng y axis](<Images/Screenshot 2026-08-22 234318.png>)
+
+
+---------------------
+Day  7
+Drone CAD Design : Part 7 : Decks and Arm Design
+I am having nightamres of moving this thing aorund it is super hard and comlucated and my la;top is absolutely dung in attemts to stack top frame onto hte biotoom deck it is super inefficient as baocally my gu was not created for this (crying emdji)
+З горем пополам всетаки перетащила верхушку тепер вигдяає так ![alt text](<Images/Screenshot 2026-08-25 001930.png>)
+
+LOOKED INTO PUSH / TRCTOK COFINGS. THE LATTER IS CHOSEN COS its more stanvle and while 1 gnertes more thrust it also does mor drag, thus redusing the max speed, so i'll go woth the more traditional way right now eve though this kind of research is nice to have.
+
+Now its time to decide the suppots for the top from the bottom one. also i need to make sure that arms mounting is also taken into accounting when planning this. concideded a few designs but might wanna stick woth thee last one for now which i like tbh. lets make arms be just and obsolete part of the loewr deck - it makes absolutely more sense  for this version/stage fof development and center of mass perpecitve, even though i might wanna conicder next time doing some more research in this topik. also i need to research the angle between motos his is very comlicated topick. i will look into true 90 X for now but naybe will be able to gett some more important info later. but now i remmebered that i use depth camera nad going 90 degs is a huge risk of ruining my shot and point cloud. i eed to go wider. 
+1ST ATTEMPT AT ARMS CREATING ![alt text](<Images/Screenshot 2026-08-25 021229.png>)
+new design will cocider center of mass shift towards back![V2](<Images/Screenshot 2026-08-25 022238.png>), MY LPATOP'S NOT HANDLING IT WELL (OR AT ALL). OK I KINDS HSVE THE FRAME, WILL ATCHA THE PHOTO LATER AS FUSION IST KAPUT. Overcoming software crashes, I mated the decks, chose a tractor setup, and designed a custom arm layout. i rellay heed to buy myslef a new latop. 
+
+
+
+-----
+Day  8
+the arms of the drone must not interfere with the field of view of the depth camera. these calculations take significant amount of time. 
+While the sketch is being saved: to note in devlog - i struggled with arms mirroring and calculations of angles and positions because the base drawing had and internal computational error and at the end I created a projection sketch where i fixed the errors and was finally able to get the arms to be positioned in their correct, dedicated places.  
+Drone Design : Day 8 : Arms and Motors
+I struggled with arms mirroring and calculations of angles and positions because the base drawing had and internal computational error and at the end I created a projection sketch where i fixed the errors and was finally able to get the arms to be positioned in their correct, dedicated places.  
+I stuoid orgaot i wanted eo do a deadcat and did a true X genious whish failed spectacular;y.
+I finally understood all constraints and got correct idea hoe to draw the arms. Laying the foundation for now.
+
+-----
+Day  9 
+i fucked uop and diidn ot concider that while mirroring I shall also concider the camera proximity, opposite prop proximity, but also next frop so i eneded up eith ![Neighbor props overlapping](<Images/Screenshot 2026-08-28 190242.png>)
+Ialso fucked up: i fried making sure that deadcat has one point where all arms eventually meet in one point. but i creates impossible reqs for center of masss of drone whereaes in my config this is absoluteleley is unesseary. 
+I finally understood - it all clicked: the props neighbopuring and opposing - now it makes absolute sense for me - assy,etrical angles. i drew angles and props first, and from that i started drwing the arms itself. I wish I'd scaled out earlied and way more, but i'lll try to at least cpmplete what i started doing here 'cos I'm kinda proud and it looks absoluteley gorgeous. or at leat it eill be a base for the final design. i;ll scale out now even more - at the moment of writing the devlog i realise that i shall a bit scale down and make arms for all 4 props (nt only neighn=burs, even though this was my initia idea) and nly then will i continuel working on specific motors configs and reinforcements. there are also a alor of aerodynamically interestung stuff that i can experiment with later. ![It's starting to look more professional](<Images/Screenshot 2026-08-28 200513.png>).
