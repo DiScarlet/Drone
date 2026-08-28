@@ -300,23 +300,58 @@ new design will cocider center of mass shift towards back![V2](<Images/Screensho
 
 -----
 Day  8
-the arms of the drone must not interfere with the field of view of the depth camera. these calculations take significant amount of time. 
-While the sketch is being saved: to note in devlog - i struggled with arms mirroring and calculations of angles and positions because the base drawing had and internal computational error and at the end I created a projection sketch where i fixed the errors and was finally able to get the arms to be positioned in their correct, dedicated places.  
 Drone Design : Day 8 : Arms and Motors
-I struggled with arms mirroring and calculations of angles and positions because the base drawing had and internal computational error and at the end I created a projection sketch where i fixed the errors and was finally able to get the arms to be positioned in their correct, dedicated places.  
-I stuoid orgaot i wanted eo do a deadcat and did a true X genious whish failed spectacular;y.
-I finally understood all constraints and got correct idea hoe to draw the arms. Laying the foundation for now.
+I worked on the drone arms and motor placement, making sure the arms and propellers stay completely out of the depth camera's field of view while finally getting the geometry and mirroring to work correctly.
+
+While the sketch was saving, I had to note this down: I struggled quite a lot with mirroring the arms and calculating the correct angles and positions because the base drawing had an internal computational error. In the end, I created a projection sketch where I fixed the errors and was finally able to get the arms positioned in their correct, dedicated places.
+
+I also realized I completely forgot what I originally wanted to do. I wanted a Deadcat, but somehow ended up trying to make a true X. Genius. It failed spectacularly.
+
+I finally understood the constraints and got the correct idea of how to draw the arms. At least now I have a proper foundation to build on.
 
 -----
 Day  9 
-i fucked uop and diidn ot concider that while mirroring I shall also concider the camera proximity, opposite prop proximity, but also next frop so i eneded up eith ![Neighbor props overlapping](<Images/Screenshot 2026-08-28 190242.png>)
-Ialso fucked up: i fried making sure that deadcat has one point where all arms eventually meet in one point. but i creates impossible reqs for center of masss of drone whereaes in my config this is absoluteleley is unesseary. 
-I finally understood - it all clicked: the props neighbopuring and opposing - now it makes absolute sense for me - assy,etrical angles. i drew angles and props first, and from that i started drwing the arms itself. I wish I'd scaled out earlied and way more, but i'lll try to at least cpmplete what i started doing here 'cos I'm kinda proud and it looks absoluteley gorgeous. or at leat it eill be a base for the final design. i;ll scale out now even more - at the moment of writing the devlog i realise that i shall a bit scale down and make arms for all 4 props (nt only neighn=burs, even though this was my initia idea) and nly then will i continuel working on specific motors configs and reinforcements. there are also a alor of aerodynamically interestung stuff that i can experiment with later. ![It's starting to look more professional](<Images/Screenshot 2026-08-28 200513.png>).
+Drone CAD Design : Part 9 : Arm Geometry & Center of Mass
 
-I need to do some physicas stuff not to guess but calclaute te posiiton of the arms to center the center of mass. 
-What I am doing is fansilly called Stretched Rectangle Deadcat. Center of mass calculation ![Task dwefinition, visiualisation, and solution](<Images/Screenshot 2026-08-28 210831.png>)
-the process is slower than i expected but it is moving and i absolutely lowing the process since now i know what i must do
-Arms look lie this for now ![one arm preliminary design](<Images/Screenshot 2026-08-28 214018.png>) and even nothing is super broken, seems really o=good to me . now moving onto a very interesting part: the very tip of the arm that i definies aerodynamics![Example from https://rcdrone.top/cdn/shop/files/S4d2ca4e5a3bb43ef87598588e5496762k.webp?v=1712597222&width=533](<Images/Screenshot 2026-08-28 214935.png>) i am whondering why such anti-aerodynamic tips for protection and whether do they reall make sense.
-![Full arm](<Images/Screenshot 2026-08-28 223953.png>) so ok, i Added some motro ortection to scurethe motor in the worst - case - scenario.
-i need to get rid of the old and nasty skrcth i ont need but i refernce inm y new drawing. it caused some not preferable outcomes but nothing bad in paticular i coudnt fix in a few mins time. time to dod sime cleanup. my width near mtotrs is too small must improve. and smoothen. 
-For carbon fiber durability, the minimum amount of material between the outer edge of any screw hole and the outside edge of the frame should be at least equal to the hole's diameter. - a vr interesing rule. aadded the notch and i like the design overall. a nivve one. 
+I fucked up and didn't consider that while mirroring the arms I also had to account for the camera proximity, the opposite prop proximity, and the neighboring prop. I ended up with this: ![Neighbor props overlapping](<Images/Screenshot 2026-08-28 190242.png>)
+I also fucked up in another way: I was trying to make the Deadcat design have one point where all the arms would eventually meet. That created impossible requirements for the center of mass, whereas in my configuration this is absolutely unnecessary.
+Then it finally clicked.
+
+I understood how the neighboring and opposing props need to be considered, and why the angles have to be asymmetrical. Instead of starting with the arms, I drew the angles and props first, and from there started designing the arms themselves.
+I wish I'd scaled everything out earlier and by a lot more, but I'll try to at least complete what I started here because I'm kind of proud of it — it actually looks absolutely gorgeous. Or at least it can become the base for the final design.
+At the moment of writing this devlog, I also realized that I should scale things down a little and create arms for all four props, not only the neighboring ones like I initially planned. Only after that will I continue working on the specific motor configurations and reinforcements.
+There are also a lot of aerodynamically interesting things I can experiment with later. ![It's starting to look more professional](<Images/Screenshot 2026-08-28 200513.png>).
+
+Before guessing anything, I need to do the physics and actually calculate the arm positions required to center the drone's center of mass.
+
+What I'm doing is apparently called a Stretched Rectangle Deadcat. 
+
+Center of Mass Calculation:
+![Task dwefinition, visiualisation, and solution](<Images/Screenshot 2026-08-28 210831.png>)
+The process is slower than I expected, but it is moving, and I'm absolutely loving the process now that I understand what I actually need to do.
+
+The arms look like this for now:
+![one arm preliminary design](<Images/Screenshot 2026-08-28 214018.png>) And even though nothing is completely broken, it seems really good to me.
+
+Now moving onto a very interesting part: the very tip of the arm, which defines a lot of its aerodynamics.
+
+![Example from https://rcdrone.top/cdn/shop/files/S4d2ca4e5a3bb43ef87598588e5496762k.webp?v=1712597222&width=533](<Images/Screenshot 2026-08-28 214935.png>) 
+I'm wondering why such anti-aerodynamic-looking tips are used for protection, and whether they actually make sense.
+![Full arm](<Images/Screenshot 2026-08-28 223953.png>) sSo, I added some motor protection to secure the motor in the worst-case scenario.
+
+I also need to get rid of the old and nasty sketch. I don't need it anymore, but I referenced it in my new drawing, which caused some not-so-preferable outcomes. Nothing particularly bad though — I was able to fix everything in a few minutes.
+
+Time for some cleanup.
+
+The width near the motors is currently too small, so I need to increase it and smoothen the geometry.
+
+For carbon fiber durability, I found an interesting rule: the minimum amount of material between the outer edge of a screw hole and the outside edge of the frame should be at least equal to the hole's diameter. 
+I added the notch, and honestly, I really like the design overall. A nice one.
+
+![Refined geometry for safety margins](<Images/Screenshot 2026-08-28 232143.png>). 
+ 
+ Now it is finally time to copy and mirror the other front mounting. Of course, while copying, at least one thing refuses to cooperate and the big pattern doesn't want to close.
+
+Overall, I am very proud that I have finally moved from a dead spot. That was nice.
+
+![Front arms V5](<Images/Screenshot 2026-08-28 233744.png>)![Whole sketch](<Images/Screenshot 2026-08-28 233822.png>)![Closer look at the arm](<Images/Screenshot 2026-08-28 233833.png>)
