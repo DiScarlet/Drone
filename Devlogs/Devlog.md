@@ -355,3 +355,10 @@ I added the notch, and honestly, I really like the design overall. A nice one.
 Overall, I am very proud that I have finally moved from a dead spot. That was nice.
 
 ![Front arms V5](<Images/Screenshot 2026-08-28 233744.png>)![Whole sketch](<Images/Screenshot 2026-08-28 233822.png>)![Closer look at the arm](<Images/Screenshot 2026-08-28 233833.png>)
+
+
+-----
+Day  10
+
+SLight modification in makng the base of the frame more lightweight but the whole point for now iis to create the back arm. why not just mirroro the back arm? Because theay are st different angles relative to the base of the drone (lower plate for example) so motor placesmsnt also requires different angle, thus mirroroing and editing it will only make my job harer than cpoying the exisitng dimentions at another angle. (+ i'll do only the base and will cpoy and rotate the harder geometry)
+On the millionth attempt i finally mamnaged to make this thingy to mirror correctly ![Mirror](<Images/Screenshot 2026-08-30 235437.png>). now i need to clean the forearm a bit from old dimentions since it is set now. First atttempt at back falied in allinmenet and same width. must redo.
