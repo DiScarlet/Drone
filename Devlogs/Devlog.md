@@ -380,16 +380,30 @@ TODO: Make the arms symmetrical.
 
 -----
 Day  11
+Drone CAD Design : Part 11 : Arm Frames & Modular Mounting
 
+Why the hell is the front arm sketch doubled?! This is so frustrating! Now I understand why some dimensions were tripled. The laptop is getting absolutely roasted by the amount of computations, and most importantly, my brain is too. This is kinda complicated.
 
-Why the helly front arm sketch is doubled?! This is so frustrating! now i understnd why some dimentions were tripledю the laptop is getting absoluteley roasted by the amount of capomputations, and most improtanty my brain either. this is kiinda complicated. gosh, this is really frustrinating - the arm doesnt enna move to the expected center. finlyyy moved it back ti the center. now i gotta make it the same as the front to avoid kiling the CoM. fareking copying thhe wrong dimention sad
+Gosh, this is really frustrating — the arm doesn't want to move to the expected center. Finallyyy managed to move it back to the center.
+
+Now I gotta make it the same as the front arm to avoid killing the CoM. Fucking copying the wrong dimension...
 
 ![Front and back arms](<Images/Screenshot 2026-08-31 141431.png>).
-now its time to do the frame itself that will connect both of the arms. i want them to be stiff and swappable at the same time so the front and back arms will be ocnnected, but front wing must nit be connected with the front to ensure that user can jst take bothe of arm frames and swap them without needing to disassemble the whole drone.
+Now it's time to do the frame itself that will connect both of the arms.
 
-now concidering the lower deck eelement's placement i have to sonnect the bdy arms. connected the bases. timee to do some ceanp and weight redction
+I want the arms to be stiff and swappable at the same time. The front and back arms will be connected together, but the front wing must not be connected to the front so that the user can just take both arm frames and swap them without needing to disassemble the whole drone.
+
+Now, considering the lower deck elements' placement, I have to connect the body arms.
+
+Connected the bases. Time for some cleanup and weight reduction.
 
 ![RIght Arms Plane](<Images/Screenshot 2026-08-31 151422.png>)
-It's kinda cool and has notches conecting it to otherpane nut at the same time they are fully independent so no taking any other emenets out in order to gt the arms sit is so cool and beatiful and i absoluteley love it!
+It's kinda cool — it has notches connecting it to the other plane, but at the same time they're fully independent. So there's no need to take any other elements out just to get the arms in.
+This is so cool and beautiful, I absolutely love it!
 
-![Mirrired drone](<Images/Screenshot 2026-08-31 152903.png>) Ok, onlt the connetors fixing is let, apart from that, the sketch is good to go.
+![Mirrired drone](<Images/Screenshot 2026-08-31 152903.png>) 
+Okay, only the connector fixing is left. Apart from that, the sketch is good to go.
+
+TODO: fix the opposite frame's notches to align (keep the right one, fix the left one from the depth camera's direction point of view). 
+Onto finishing the main arms' plate design today, after that i will have only fixation holes left and find a way to connect all of the arms (tbh doesn't sound easy but doable within the deadline) 
+[Finla arms skrtxh](Devlog.md)
