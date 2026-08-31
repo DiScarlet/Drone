@@ -386,3 +386,10 @@ Why the helly front arm sketch is doubled?! This is so frustrating! now i unders
 
 ![Front and back arms](<Images/Screenshot 2026-08-31 141431.png>).
 now its time to do the frame itself that will connect both of the arms. i want them to be stiff and swappable at the same time so the front and back arms will be ocnnected, but front wing must nit be connected with the front to ensure that user can jst take bothe of arm frames and swap them without needing to disassemble the whole drone.
+
+now concidering the lower deck eelement's placement i have to sonnect the bdy arms. connected the bases. timee to do some ceanp and weight redction
+
+![RIght Arms Plane](<Images/Screenshot 2026-08-31 151422.png>)
+It's kinda cool and has notches conecting it to otherpane nut at the same time they are fully independent so no taking any other emenets out in order to gt the arms sit is so cool and beatiful and i absoluteley love it!
+
+![Mirrired drone](<Images/Screenshot 2026-08-31 152903.png>) Ok, onlt the connetors fixing is let, apart from that, the sketch is good to go.
