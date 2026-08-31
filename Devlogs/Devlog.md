@@ -359,6 +359,30 @@ Overall, I am very proud that I have finally moved from a dead spot. That was ni
 
 -----
 Day  10
+Drone CAD Design : Part 10 : Rear Arm Geometry & Mirroring
 
-SLight modification in makng the base of the frame more lightweight but the whole point for now iis to create the back arm. why not just mirroro the back arm? Because theay are st different angles relative to the base of the drone (lower plate for example) so motor placesmsnt also requires different angle, thus mirroroing and editing it will only make my job harer than cpoying the exisitng dimentions at another angle. (+ i'll do only the base and will cpoy and rotate the harder geometry)
-On the millionth attempt i finally mamnaged to make this thingy to mirror correctly ![Mirror](<Images/Screenshot 2026-08-30 235437.png>). now i need to clean the forearm a bit from old dimentions since it is set now. First atttempt at back falied in allinmenet and same width. must redo.
+I slightly modified the base of the frame to make it lighter, but the main goal for now was to create the rear arm and get its geometry working correctly.
+
+Why not just mirror the front arm? Because the rear arms are at different angles relative to the drone's base, especially the lower plate. That means the motor mounting position also needs a different angle, so mirroring and then editing the existing arm would actually make things harder than simply recreating the base geometry using the existing dimensions at the correct angle.
+
+I'll only recreate the basic arm geometry for now and later copy and rotate the more complicated geometry.
+
+On the millionth attempt, I finally managed to make this thing mirror correctly
+
+![Mirror](Devlog.md)
+
+Now I need to clean the front arm from the old dimensions since its geometry is finally set.
+
+My first attempt at the rear arm failed because the alignment and width didn't match, so I'll have to redo it.
+
+TODO: Make the arms symmetrical.
+
+
+-----
+Day  11
+
+
+Why the helly front arm sketch is doubled?! This is so frustrating! now i understnd why some dimentions were tripledю the laptop is getting absoluteley roasted by the amount of capomputations, and most improtanty my brain either. this is kiinda complicated. gosh, this is really frustrinating - the arm doesnt enna move to the expected center. finlyyy moved it back ti the center. now i gotta make it the same as the front to avoid kiling the CoM. fareking copying thhe wrong dimention sad
+
+![Front and back arms](<Images/Screenshot 2026-08-31 141431.png>).
+now its time to do the frame itself that will connect both of the arms. i want them to be stiff and swappable at the same time so the front and back arms will be ocnnected, but front wing must nit be connected with the front to ensure that user can jst take bothe of arm frames and swap them without needing to disassemble the whole drone.
