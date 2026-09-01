@@ -381,6 +381,7 @@ TODO: Make the arms symmetrical.
 -----
 Day  11
 Drone CAD Design : Part 11 : Arm Frames & Modular Mounting
+Drone CAD Design : Part 12 : Arm Frame Plane and Weight Reduction
 
 Why the hell is the front arm sketch doubled?! This is so frustrating! Now I understand why some dimensions were tripled. The laptop is getting absolutely roasted by the amount of computations, and most importantly, my brain is too. This is kinda complicated.
 
@@ -407,3 +408,9 @@ Okay, only the connector fixing is left. Apart from that, the sketch is good to 
 TODO: fix the opposite frame's notches to align (keep the right one, fix the left one from the depth camera's direction point of view). 
 Onto finishing the main arms' plate design today, after that i will have only fixation holes left and find a way to connect all of the arms (tbh doesn't sound easy but doable within the deadline) 
 [Finla arms skrtxh](Devlog.md)
+
+I cant make the mirrored patr to create the plane so i can extrude the profile. i sed the binary serch method to find the gaps (turs out there were qite a lot of them). it finallt time to extrude and see the plane itself
+
+once again annoying bisnatu to look for empty and uncnnected lines
+
+Finished main desgin of ![Arms Plane](<Images/Screenshot 2026-09-01 040221.png>)
