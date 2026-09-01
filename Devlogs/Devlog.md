@@ -426,3 +426,6 @@ Ok, I finally am mainly done with the arm plane. Only screws for mounting and to
 Day  11
 
 ![Creing holes mounting](<Images/Screenshot 2026-09-02 000307.png>) ![Arms  plane mounting](<Images/Screenshot 2026-09-02 001133.png>). acter billions and millions of yesrs i am finally done eith the ![Bottom and Arms planes](<Images/Screenshot 2026-09-02 004459.png>). this was an exausing journey tbh!
+I KINDA FROGOT ABOUT THE ESCs... whoops, i need to redesign the arm bacause of this.
+
+![ESCs mounted](<Images/Screenshot 2026-09-02 020452.png>) it was very stupid of me to forhet the ESC but ok i ntgrated them back.
