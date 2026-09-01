@@ -382,6 +382,8 @@ TODO: Make the arms symmetrical.
 Day  11
 Drone CAD Design : Part 11 : Arm Frames & Modular Mounting
 Drone CAD Design : Part 12 : Arm Frame Plane and Weight Reduction
+Drone CAD Design : Part 12 : Arm Aerodynamics & Integration
+
 
 Why the hell is the front arm sketch doubled?! This is so frustrating! Now I understand why some dimensions were tripled. The laptop is getting absolutely roasted by the amount of computations, and most importantly, my brain is too. This is kinda complicated.
 
@@ -413,4 +415,14 @@ I cant make the mirrored patr to create the plane so i can extrude the profile. 
 
 once again annoying bisnatu to look for empty and uncnnected lines
 
-Finished main desgin of ![Arms Plane](<Images/Screenshot 2026-09-01 040221.png>)
+Finished main desgin of ![Arms Plane](<Images/Screenshot 2026-09-01 040221.png>)![Another view](<Screenshot 2026-09-01 041004.png>)![Bottom view](<Images/Screenshot 2026-09-01 041058.png>)
+
+Now i am pnly ledt to do the top deck that wil sndwtch the whole setup into one.... on not and just let it be or yes.. no i guess.
+
+Ok, I finally am mainly done with the arm plane. Only screws for mounting and top story supports are left.
+
+
+-----
+Day  11
+
+![Creing holes mounting](<Images/Screenshot 2026-09-02 000307.png>) ![Arms  plane mounting](<Images/Screenshot 2026-09-02 001133.png>). acter billions and millions of yesrs i am finally done eith the ![Bottom and Arms planes](<Images/Screenshot 2026-09-02 004459.png>). this was an exausing journey tbh!
