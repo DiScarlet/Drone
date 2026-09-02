@@ -45,7 +45,7 @@ there were also a bunch of things i wanted to experiment with, mainly:
 - aerodynamic testing
 - fitting a jetson computer onto a relatively small drone
 
-![Schematics](<Screenshot 2026-08-07 012645.png>)
+![Schematics](Schematics.png)
 
 also i just wanted to see how far i could take a drone design in CAD before actually building it.
 
