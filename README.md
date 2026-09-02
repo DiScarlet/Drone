@@ -1,9 +1,9 @@
 # Custom Drone
-hey! this is my custom quadcopter/uav that ive been designing from scratch over the last few months.
+This is the custom 11 inch drone that I have been designing from scratch over the last few months.
 
 the goal is to make a relatively compact quadcopter that can carry a bunch of sensors and a jetson computer while still having enough thrust and flight time to actually be useful.
 
-the whole frame is designed in Fusion 360 and im planning to manufacture the main structural parts from carbon fiber.
+the electrycal connections concept was done i KiCad and the whole frame is designed in Fusion 360 and im planning to manufacture the main structural parts from carbon fiber.
 
 ![Full drone](<Devlogs/Images/Screenshot 2026-09-02 051722.png>)
 
@@ -14,9 +14,7 @@ Hey! If you're reviewing this, the main thing I would look at is the CAD design 
 There are probably still some things I could improve, especially around weight, rigidity and aerodynamics, but I wanted to get a complete working design first and then improve it from there. Thanks for checking it out! :)
 
 
-## what is this?
-
-this is a custom 11 inch drone with a stretched/deadcat style frame.
+## components?
 
 the drone is designed around:
 
