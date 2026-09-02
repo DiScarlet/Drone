@@ -5,11 +5,11 @@ Power,Holybro PM02D HV Power Module,25 x 25 x 10,185,https://docs.holybro.com/po
 Power,Holybro Power Distribution Board (PDB) 60A,50 x 50 x 8,40,https://shop.thebioniceye.co.uk/products/holybro-60a?srsltid=AfmBOooZO4nanTuSxcHnEsDVXxuyDpoT9Va7VZMrv0b9aLmG2NGfQZx7&variant=48882750226625
 Power, Holybro UBEC 12A, 48 x 33.6 x 16.3,50,https://holybro.com/products/ubec-12a?srsltid=AfmBOorcclSu5ZED8_PnxoWJMVMNvr8-PdViFD-zYugvBGFu-KVDiefs
 ESC,T-MOTOR ALPHA 60A 12S V1.2,32.5 x 80.2 x 16,73,https://uav-en.tmotor.com/2018/alpha_1023/161.html
+ESC-Connectors,CUSTOM NOARD LIKE Holybro PWM EXT Board*2,30.5 x 30.1 x 10,10,https://holybro.com/collections/flight-controller-accessories/products/pwm-ext-board
 Propulsion,BrotherHobby Tornado T5 3115 Pro Motor 640KV,37.50 x 37.50 x 25.60,115.50,https://www.brotherhobbystore.com/tornado-t5-3115-pro-motor-p0088-p0088.html
 Propulsion,Three-blade folding propeller 9453,279 x 178 x 14.3,26.1,https://www.masterairscrew.com/products/gf-series-11x7-propeller?srsltid=AfmBOoprr1BXrdbUOM-K4Xh2w9On47E81yLrGnpcxRojD5JtyG-NbC6z
 Navigation,Holybro M10 GPS (IST8310 Compass),50 x 50 x 14.4,32,https://holybro.com/products/m10-gps
 Communication,RadioMaster RP3 ELRS Receiver,22 x 13 x 4,4.6,https://radiomasterrc.com/products/rp3-expresslrs-2-4ghz-nano-receiver
-Communication,D-Link D501 5G USB Adapter,95 x 41 x 22.5,68,https://www.dlink.com/fi/fi/products/d501-5g-nr-usb-adapter
 Vision,Intel RealSense D435i,90 x 25 x 25,72,https://www.realsenseai.com/products/depth-camera-d435i/
 Vision,ST VL53L1X Lidar (x3),25 x 10.7 x 3.2,2.4,https://holybro.com/products/st-vl53l1x-lidar?srsltid=AfmBOor2lauHOU-WvNsY8-1xr2Vatd6cC6PU2lAiTXOEU17J8HfGZMaj
 Structure,Custom Carbon Fiber Frame,430–450 mm wheelbase,700,N/A (custom)
@@ -17,4 +17,10 @@ Structure,Custom Landing Gear,Custom,200,N/A (custom)
 Fasteners,M3 Socket Head Screws + Aluminum Standoffs,Various,100,https://www.mcmaster.com/metric-fasteners/
 Connectors, XT30 male * 4 (for ESC - PDB conn),12 x 11 x 6,3,https://originhobbies.com/fi/shop/helikopterin-osat-2/omphobby-spare-parts/omp-m2-parts/amass-xt30-male-connector/?srsltid=AfmBOoq7jTOIkWy28jQRVGgiF-4gEhGhY-iT4rFuAI_N_-lD23c5ule5
 Connectors, USB type A male to female (for 5G - FC conn),-,30,https://www.gigantti.fi/product/palvelut-ja-lisavarusteet/kaapelit-ja-liitettavyys/virtajohdot/delock-extension-cable-usb-30-type-a-male-usb-30-type-a-female-2-m/363680
+Connectors, MICROBARB® BRASS - SHORT LENGTH - M3,-,50,https://www.clipcarbono.com/en/threaded-inserts/2152-microbarb-brass-short-length-m3.html
+Communication,D-Link D501 5G USB Adapter,95 x 41 x 22.5,68,https://www.dlink.com/fi/fi/products/d501-5g-nr-usb-adapter
+OR 
+(Communication,LTE EG25-G Mini PCIe,51 x 30 x 4.9,9.8,https://www.quectel.com/product/lte-eg25-g-mpcie/
+AND 
+Communication-Connectors,Mini PCI-E PCI-Express to USB Adapter,89 x 45 x 18,100,https://tietokonekauppa.fi/products/2759393/Verkkotuotteet/Reitittimet_ja_tukiasemat/4G_LTE_modeemit_reitittimet/BXAW_AB_XS/Mini_PCI_E_PCI_Express_to_USB_Adapter_SIM_Card_Slot_for_Mini_PCI_E_Module)
 

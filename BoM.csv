@@ -1,0 +1,21 @@
+Category,Model,Manufacturer,Quantity,Dimensions (mm),Mass (g/unit),Approx. Unit Cost (EUR),Approx. Total Cost (EUR),Manufacturer / Buy Link,Notes
+Flight Controller,Holybro Pixhawk Jetson Baseboard + Pixhawk 6X + Jetson Orin NX,Holybro,1,126 x 80 x 38.6,175.0,650.0,650,https://docs.holybro.com/autopilot/pixhawk-baseboards/pixhawk-jetson-baseboard/dimension-and-weight,Core flight controller and companion computer platform
+Power,Tattu 6S 6000–8000 mAh LiPo (XT60),Tattu,1,165 x 45 x 43,700.0,100.0,100,https://www.foxtechfpv.com/tattu-6s-5000mah-lipo-battery.html,Main propulsion battery; price is approximate
+Power,Holybro PM02D HV Power Module,Holybro,1,25 x 25 x 10,185.0,35.0,35,https://holybro.com/products/pm02d-power-module,Monitors and supplies flight-controller power
+Power,Holybro Power Distribution Board (PDB) 60A,Holybro,1,50 x 50 x 8,40.0,25.0,25,https://shop.thebioniceye.co.uk/products/holybro-60a,Distributes battery power to ESCs
+Power,Holybro UBEC 12A,Holybro,1,48 x 33.6 x 16.3,50.0,25.0,25,https://holybro.com/products/ubec-12a,Regulated power for onboard electronics
+ESC,T-MOTOR ALPHA 60A 12S V1.2,T-MOTOR,4,32.5 x 80.2 x 16,73.0,55.0,220,https://uav-en.tmotor.com/2018/alpha_1023/161.html,One ESC per motor
+ESC-Connectors,CUSTOM BOARD LIKE Holybro PWM EXT Board,Holybro/custom,2,30.5 x 30.1 x 10,10.0,15.0,30,https://holybro.com/collections/flight-controller-accessories/products/pwm-ext-board,Interface/extension boards for ESC signal connections
+Propulsion,BrotherHobby Tornado T5 3115 Pro Motor 640KV,BrotherHobby,4,37.50 x 37.50 x 25.60,115.5,35.0,140,https://www.brotherhobbystore.com/tornado-t5-3115-pro-motor-p0088-p0088.html,One motor per arm
+Propulsion,Three-blade folding propeller 9453,Master Airscrew,4,279 x 178 x 14.3,26.1,15.0,60,https://www.masterairscrew.com/products/gf-series-11x7-propeller,One propeller per motor; verify exact 9453 variant/pitch compatibility
+Navigation,Holybro M10 GPS (IST8310 Compass),Holybro,1,50 x 50 x 14.4,32.0,45.0,45,https://holybro.com/products/m10-gps,GPS and compass
+Communication,RadioMaster RP3 ELRS Receiver,RadioMaster,1,22 x 13 x 4,4.6,25.0,25,https://radiomasterrc.com/products/rp3-expresslrs-2-4ghz-nano-receiver,RC telemetry/control receiver
+Vision,Intel RealSense D435i,Intel RealSense,1,90 x 25 x 25,72.0,180.0,180,https://www.realsenseai.com/products/depth-camera-d435i,Front depth/vision camera
+Vision,ST VL53L1X Lidar,STMicroelectronics,3,25 x 10.7 x 3.2,2.4,10.0,30,https://holybro.com/products/st-vl53l1x-lidar,Three short-range distance sensors
+Structure,Custom Carbon Fiber Frame,Custom,1,430–450 mm wheelbase,700.0,150.0,150,N/A (custom),Custom airframe
+Structure,Custom Landing Gear,Custom,1,Custom,200.0,40.0,40,N/A (custom),Custom landing gear
+Fasteners,M3 Socket Head Screws + Aluminum Standoffs,Various,1,Various,100.0,30.0,30,https://www.mcmaster.com/metric-fasteners/,Assorted mounting hardware
+Connectors,XT30 male,Amass,4,12 x 11 x 6,3.0,1.5,6,https://originhobbies.com/fi/shop/helikopterin-osat-2/omphobby-spare-parts/omp-m2-parts/amass-xt30-male-connector/,ESC-to-PDB connectors
+Connectors,USB 3.0 Type-A male to female extension cable,Delock/Generic,1,-,30.0,10.0,10,https://www.gigantti.fi/product/palvelut-ja-lisavarusteet/kaapelit-ja-liitettavyys/virtajohdot/delock-extension-cable-usb-30-type-a-male-usb-30-type-a-female-2-m/,USB connection for 5G adapter
+Connectors,MICROBARB Brass Short Length M3,ClipCarbono,1,-,50.0,10.0,10,https://www.clipcarbono.com/en/threaded-inserts/2152-microbarb-brass-short-length-m3.html,Threaded inserts for frame
+Communication,D-Link D501 5G USB Adapter,D-Link,1,95 x 41 x 22.5,68.0,120.0,120,https://www.dlink.com/fi/fi/products/d501-5g-nr-usb-adapter,5G cellular connectivity; alternative to EG25-G setup

@@ -2548,9 +2548,9 @@
 		)
 		(uuid "62b7dc9e-b62e-40ca-86c9-2ef3513fa194")
 	)
-	(text "PWM ESC to FC Connector"
+	(text "PWM EXT Board"
 		(exclude_from_sim no)
-		(at 192.278 33.528 0)
+		(at 192.786 35.306 0)
 		(effects
 			(font
 				(size 1.27 1.27)
