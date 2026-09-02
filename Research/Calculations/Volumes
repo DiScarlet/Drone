@@ -1,0 +1,19 @@
+Model,Manufacturer Dimensions (mm),Mass(gr/per 1),Manufacturer / Buy Link
+Holybro Pixhawk Jetson Baseboard + Pixhawk 6X (with Jetson Orin NX),126 x 80 x 38.6,175,98535.413 mm³
+Holybro PM02D HV Power Module,25 x 25 x 10,185,4827.996 mm³
+Holybro Power Distribution Board (PDB) 60A,50 x 50 x 8,40,7288.608 mm³
+ Holybro UBEC 12A, 48 x 33.6 x 16.3,50,21946.247 mm³
+T-MOTOR ALPHA 60A 12S V1.2,32.5 x 80.2 x 16,73,36921.322 mm³
+CUSTOM NOARD LIKE Holybro PWM EXT Board*2,30.5 x 30.1 x 10,10,8734.399 mm³
+BrotherHobby Tornado T5 3115 Pro Motor 640KV,37.50 x 37.50 x 25.60,115.50,29263.346 mm³(and prop together)
+Three-blade folding propeller 9453,279 x 178 x 14.3,26.1,
+Holybro M10 GPS (IST8310 Compass),50 x 50 x 14.4,32,12156.429 mm³
+RadioMaster RP3 ELRS Receiver,22 x 13 x 4,4.6,2353.693 mm³
+Intel RealSense D435i,90 x 25 x 25,72,39893.726 mm³
+ST VL53L1X Lidar (x3),25 x 10.7 x 3.2,2.4,1986.919 mm³
+Custom Carbon Fiber Frame,430–450 mm wheelbase,700,N/A (custom)
+Custom Landing Gear,Custom,200,N/A (custom)
+M3 Socket Head Screws + Aluminum Standoffs,Various,100,
+XT30 male * 4 (for ESC - PDB conn),12 x 11 x 6,3,
+USB type A male to female (for 5G - FC conn),-,30,
+D-Link D501 5G USB Adapter,95 x 41 x 22.5,68,112900 mm³
