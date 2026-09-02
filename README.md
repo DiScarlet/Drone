@@ -7,6 +7,13 @@ the whole frame is designed in Fusion 360 and im planning to manufacture the mai
 
 ![Full drone](<Devlogs/Images/Screenshot 2026-09-02 051722.png>)
 
+## Reviewer note
+
+Hey! If you're reviewing this, the main thing I would look at is the CAD design and how the different parts were integrated together. I tried to design the frame around the actual components instead of just making something that looks cool.
+
+There are probably still some things I could improve, especially around weight, rigidity and aerodynamics, but I wanted to get a complete working design first and then improve it from there. Thanks for checking it out! :)
+
+
 ## what is this?
 
 this is a custom 11 inch drone with a stretched/deadcat style frame.
@@ -59,7 +66,7 @@ after that i worked on the arm angles, motor positions, camera clearance and cen
 
 the center of mass was another thing that took way more work than i expected. i used the actual component masses where i could and adjusted the material densities in Fusion so the CAD model would represent the real components better.
 
-![lower plane](<Images/Screenshot 2026-09-02 044954.png>)
+![lower plane](<Screenshot 2026-08-22 232843.png>)
 
 i also made the arm sections modular so they can be removed/swapped without having to completely take apart the whole drone.
 
@@ -71,9 +78,9 @@ the bottom section carries a lot of the main structure and battery, while the to
 
 i added mounting points for the different components and also added holes in the top plate to remove some material and hopefully improve airflow.
 
-![top view](<Images/Screenshot 2026-09-02 044817.png>)
-
 the arms also got redesigned after i realized i had completely forgotten about the ESCs.
+
+![epic fail](<Devlogs/Images/Screenshot 2026-09-02 001133.png>)
 
 yes.
 
@@ -81,7 +88,9 @@ i designed the arms and then remembered that the ESCs probably needed somewhere 
 
 so i had to redo part of the arm design and integrate the ESC mounting properly.
 
-![ESCs](<Images/Screenshot 2026-09-02 020452.png>)
+
+![top view](<Devlogs/Images/Screenshot 2026-09-02 045237.png>)
+
 
 ## center of mass
 
@@ -95,141 +104,18 @@ the battery position is also being used as one of the main ways to adjust the fi
 
 ## CFD
 
-i am also testing the final drone design using CFD.
-
-the main simulation is being done in **SimScale** using:
-
-- Flow → Incompressible
-- steady-state
-- k-ω SST turbulence model
-- air
-- 10 m/s incoming airflow
-- MRF rotating zones for the propellers
-
-the main things im looking at are:
-
-- airflow around the frame
-- pressure distribution
-- propeller wake
-- velocity around the arms and camera
-- drag
-- thrust
-- forces and moments
-
-the point of the CFD isn't to make a pretty rainbow screenshot and call it a day. i want to see if there are any obvious problems with the frame geometry and how much the frame is messing with the airflow.
-
-![side view](<Images/Screenshot 2026-09-02 044739.png>)
-
-## CAD files
-
-the CAD files are included in this repository.
-
-to open the project, download the Fusion 360 files and open them using **Autodesk Fusion 360**.
-
-you will need Fusion 360 to edit the CAD model.
-
-the CFD setup is separate and is being done through SimScale.
-
-## how to view / continue the project
-
-### Fusion 360
-
-1. Download the CAD files from this repository.
-2. Open them in Autodesk Fusion 360.
-3. From there you can inspect the individual components and modify the frame.
-
-### CFD
-
-the CFD simulation is set up in SimScale.
-
-the model can be imported into a SimScale project and the simulation setup can be inspected there.
-
-## current status
-
-- [x] basic frame design
-- [x] propeller clearance
-- [x] arm geometry
-- [x] camera mount
-- [x] GPS mount
-- [x] center of mass testing
-- [x] ESC integration
-- [x] top and bottom decks
-- [x] modular arm mounting
-- [x] RC mounting
-- [x] aerodynamic holes
-- [x] fillets
-- [x] full frame design
-- [ ] CFD analysis
-- [ ] final structural testing
-- [ ] final electronics layout
-- [ ] carbon fiber manufacturing
-- [ ] assembly
-- [ ] flight testing
+i am also testing the final drone design using CFD. But more experimentation are for the future.
 
 ## some pictures
 
-![front view](<Images/Screenshot 2026-09-02 044634.png>)
+![top](<Devlogs/Images/Screenshot 2026-09-02 044954.png>)
 
-![side view](<Images/Screenshot 2026-09-02 044739.png>)
+![side view](<Devlogs/Images/Screenshot 2026-09-02 044905.png>)
 
-![top](<Images/Screenshot 2026-09-02 044817.png>)
+![front view](<Devlogs/Images/Screenshot 2026-09-02 051736.png>)
 
-![side 2](<Images/Screenshot 2026-09-02 044905.png>)
+![top 2](<Devlogs/Images/Screenshot 2026-09-02 044817.png>)
 
-![lower plane](<Images/Screenshot 2026-09-02 044954.png>)
+![arms plane](<Devlogs/Images/Screenshot 2026-09-02 045237.png>)
 
-![arms plane](<Images/Screenshot 2026-09-02 045237.png>)
-
-## problems i ran into
-
-there were honestly a lot.
-
-the arm geometry was probably the biggest one. i had problems with mirroring, constraints and the angles because my original sketch started getting computational errors.
-
-i ended up using projection sketches to get around some of the issues.
-
-then i had to redesign the rear arms because they couldn't just be mirrored like i originally thought.
-
-after that i had the center of mass to deal with.
-
-then i remembered the ESCs.
-
-then i had to redesign the arms again.
-
-so yeah, there were quite a few "oh shit i forgot about that" moments.
-
-but thats also kinda the point of the project. im actually learning how to design the thing instead of just following a tutorial where everything magically works first try.
-
-## software / tools
-
-- **Autodesk Fusion 360** — CAD and mechanical design
-- **SimScale** — CFD
-- **Git / GitHub** — project files and version control
-
-## AI disclosure
-
-i did use AI during this project, mainly as a second opinion when i got stuck.
-
-i used it for things like:
-
-- checking calculations
-- understanding some CAD/CFD concepts
-- getting suggestions when i was stuck on a design problem
-- checking technical information about some components
-- helping me understand how to set up the CFD simulation
-
-the actual CAD design, dimensions, component placement, frame layout and design decisions were made by me.
-
-AI was not used to generate the CAD model for me.
-
-## final note
-
-this project is still a work in progress.
-
-the CAD is getting close to the point where i can actually manufacture the frame, but there is still a lot to test before this thing gets anywhere near actual flight.
-
-hopefully it works.
-
-if it doesn't, well...
-
-back to Fusion 360 :)
+![lower plane](<Devlogs/Images/Screenshot 2026-09-02 044954.png>)
