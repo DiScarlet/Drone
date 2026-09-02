@@ -382,7 +382,7 @@ TODO: Make the arms symmetrical.
 Day  11
 Drone CAD Design : Part 11 : Arm Frames & Modular Mounting
 Drone CAD Design : Part 12 : Arm Frame Plane and Weight Reduction
-Drone CAD Design : Part 12 : Arm Aerodynamics & Integration
+Drone CAD Design : Part 13 : Arm Aerodynamics & Integration
 
 
 Why the hell is the front arm sketch doubled?! This is so frustrating! Now I understand why some dimensions were tripled. The laptop is getting absolutely roasted by the amount of computations, and most importantly, my brain is too. This is kinda complicated.
@@ -423,11 +423,22 @@ Ok, I finally am mainly done with the arm plane. Only screws for mounting and to
 
 
 -----
-Day  11
-
+Day  12
+Drone CAD Design : Part 14 : ESC Integration & Final Frame
 ![Creing holes mounting](<Images/Screenshot 2026-09-02 000307.png>) ![Arms  plane mounting](<Images/Screenshot 2026-09-02 001133.png>). acter billions and millions of yesrs i am finally done eith the ![Bottom and Arms planes](<Images/Screenshot 2026-09-02 004459.png>). this was an exausing journey tbh!
 I KINDA FROGOT ABOUT THE ESCs... whoops, i need to redesign the arm bacause of this.
 
 ![ESCs mounted](<Images/Screenshot 2026-09-02 020452.png>) it was very stupid of me to forhet the ESC but ok i ntgrated them back. onto the top frame now. strted creting mountings that will supprt the top floor and mamngin the mountings of the top floor.[Top floor view](Devlog.md)
 
-Creating the cover for the RC so i can mount it properly. [rCVR COVER](Devlog.md)
+Creating the cover for the RC so i can mount it properly. [rCVR COVER](Devlog.md).
+amde some goles in top for aerodynmics. now i getting close to an end and its time to do some filleting. a lot of it. ok i thun i am done. gonne upload pics and do cfd next. thatsi it for now
+![Side view](<Images/Screenshot 2026-09-02 044739.png>)
+![Top](<Images/Screenshot 2026-09-02 044817.png>)
+![Sdie 2](<Images/Screenshot 2026-09-02 044905.png>)
+![Lower plane](<Images/Screenshot 2026-09-02 044954.png>)
+![Arms plane](<Images/Screenshot 2026-09-02 045237.png>)
+![Side 3](<Images/Screenshot 2026-09-02 051722.png>)
+![Front with lipo](<Images/Screenshot 2026-09-02 051736.png>)
+
+Placed lipo in place .donoe. now i wait for the export. i relly oe it will finish.
+
