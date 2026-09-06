@@ -1,6 +1,10 @@
 # Custom Drone
 This is the custom 11 inch drone that I have been designing from scratch over the last few months.
 
+Inspect the 3D Model Here: [autode.sk/4qQeJi8](https://autode.sk/4qQeJi8)
+
+Concept Board Link: [app.idroo.com/boards/iBzdX5M0Z2](https://app.idroo.com/boards/iBzdX5M0Z2)
+
 the goal is to make a relatively compact quadcopter that can carry a bunch of sensors and a jetson computer while still having enough thrust and flight time to actually be useful.
 
 the electrycal connections concept was done i KiCad and the whole frame is designed in Fusion 360 and im planning to manufacture the main structural parts from carbon fiber.
@@ -65,8 +69,6 @@ at one point i accidentally designed a normal X layout when i was actually tryin
 after that i worked on the arm angles, motor positions, camera clearance and center of mass.
 
 the center of mass was another thing that took way more work than i expected. i used the actual component masses where i could and adjusted the material densities in Fusion so the CAD model would represent the real components better.
-
-![lower plane](<Screenshot 2026-08-22 232843.png>)
 
 i also made the arm sections modular so they can be removed/swapped without having to completely take apart the whole drone.
 
